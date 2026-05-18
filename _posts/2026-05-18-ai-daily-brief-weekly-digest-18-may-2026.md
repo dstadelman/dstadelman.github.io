@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "AI Daily Brief Weekly Digest — 18 May 2026"
-date: 2026-05-18 22:30:00
+date: 2026-05-18 11:30:00
 ---
 
 ## Summary of This Week's Episodes (11-18 May 2026)
