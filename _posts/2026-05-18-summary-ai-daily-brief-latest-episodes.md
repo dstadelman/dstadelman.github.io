@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Summary: AI Daily Brief -- Latest Episodes"
-date: 2026-05-18 20:55:00 -0600
+date: 2026-05-18 14:55:00 -0600
 ---
 # Summary: AI Daily Brief -- Latest Episodes
 
