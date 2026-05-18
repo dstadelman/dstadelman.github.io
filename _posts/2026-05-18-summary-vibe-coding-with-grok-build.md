@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Summary: Vibe Coding With Grok Build"
-date: 2026-05-18 20:41:02 -0600
+date: 2026-05-18 20:41:02 -06:00
 ---
 # Summary: Vibe Coding With Grok Build
 [BridgeMind — Vibe Coding With Grok Build](https://www.youtube.com/watch?v=EFwvRWvLEEE)
