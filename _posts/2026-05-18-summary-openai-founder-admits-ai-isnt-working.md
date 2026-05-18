@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Summary: OpenAI founder admits AI isn't working"
-date: 2026-05-18 20:31:08 -0600
+date: 2026-05-18 20:31:08 -06:00
 ---
 # Summary: OpenAI founder admits AI isn't working
 [Mo Bitar — OpenAI founder admits AI isn't working](https://www.youtube.com/watch?v=ZugX7a99dLk)
