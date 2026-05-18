@@ -19,7 +19,7 @@ The video opens with benchmark context. On the Artificial Analysis coding index,
 
 **Design output quality.** Asked to rebuild the BridgeMind website as a Next.js/Shadcn revamp using 10 sub-agents, the output is severely flawed. Products page contains a double navbar — a fundamental layout bug. The reviewer calls the result "worse than Kimi K2.6" and "GPT-4 type stuff," stating that using Grok 4.3 in a serious vibe-coding workflow is not viable.
 
-**Built-in image generation (`grok imagine`).** Highlighted as a unique advantage over Claude Code. The reviewer tests it by requesting an infographic for the BridgeVoice product page. It successfully generates and applies an image through the code generation pipeline — an end-to-end workflow Claude Code cannot complete. Note: GBT 5.5 Image Gen 2 still produces better images, but the capability itself is valued.
+**Built-in image generation (`grok imagine`).** Highlighted as a unique advantage over Claude Code. The reviewer tests it by requesting an infographic for the BridgeVoice product page. It successfully generates and applies an image through the code generation pipeline — an end-to-end workflow Claude Code cannot complete. Note: GPT-5.5 Image Gen 2 still produces better images, but the capability itself is valued.
 
 **Usage rate limits.** The most critical finding. After roughly one hour of workflow testing, the Super Heavy plan already shows 8% usage on a two-week billing cycle (resets May 31). The reviewer calls this "a complete ripoff" and notes that typical 6-8 hour sessions would consume 50% of the two-week allowance in a single sitting, making serious usage impossible.
 
