@@ -1,0 +1,20 @@
+---
+layout: "post"
+title: "Summary: Anthropic Just Reset AI Expectations"
+date: 2026-05-22
+---
+
+[AI Daily Brief - Anthropic Just Reset AI Expectations](https://podcasters.spotify.com/pod/show/nlw/episodes/Anthropic-Just-Reset-AI-Expectations-e3jngg2)
+
+Anthropic hit three major developments in a single week: its first-ever profitable quarter, Andre Karpathy joining from Eureka Labs, and a $45B compute deal with SpaceX. Meanwhile OpenAI reportedly filed for IPO by September and Nvidia posted record earnings. The combination has forced a broad recalculation of where the AI industry stands.
+
+* **Andre Karpathy joins Anthropic:** The OpenAI co-founder who coined "vibe coding" left his solo education venture Eureka Labs to lead a pre-training team at Anthropic, focused on using Claude to accelerate pre-training research. His departure completes a notable pattern of OpenAI defectors moving to Anthropic, signaling that the lab is assembling an "absurd research bench."
+* **Anthropic's first profitability:** Wall Street-sourced financials reveal Anthropic forecasting $10.9B in Q2 revenue with a $559M operating profit -- the first profitable quarter for any frontier lab. Previous internal targets were 2029. The profitability is partly mechanical: compute is so sold out that Anthropic couldn't spend more even if it wanted, but the numbers nonetheless shatter skepticism about frontier lab economics.
+* **SpaceX-Colossus compute deal:** Anthropic signed a $45B, three-year deal to take over SpaceX's Colossus data center at roughly $1.25B/month, instantly making it SpaceX's largest revenue generator ahead of Starlink. Colossus 2 scaling adds even more capacity. Elon Musk is settling into a "compute czar" role as AI infrastructure becomes his primary revenue driver.
+* **OpenAI IPO timeline:** The Wall Street Journal reports OpenAI engaged investment bankers and expects to file confidential IPO paperwork, targeting September trading -- potentially ahead of Anthropic's rumored October target. The Elon Musk lawsuit resolution cleared a path that could have otherwise unwound OpenAI's for-profit conversion.
+* **Nvidia earnings silence skeptics:** Data center revenue grew 92% year-over-year to $81.6B, with Blackwell firing "on all cylinders." For the first time, Nvidia separated hyperscaler (46%) from other customers, putting a stake in Google TPU competition. Jensen Huang noted agentic AI "has arrived" but stressed zero chip sales to China.
+* **New AI executive order:** The White House is preparing a voluntary framework requiring models be shared with the government before release. The White House wants 90 days; labs push for 14. NSA would handle model testing. The draft suggests a focus on preparedness, not restriction -- functionally similar to Anthropic's own Project Glasswing becoming formal government policy.
+* **OpenAI Guaranteed Capacity:** New enterprise program lets firms lock in 1-3 year AI supply commitments for discounts and critical-workflow uptime guarantees, making AI billing look more like cloud infrastructure. Provides "rock solid ARR" heading into OpenAI's IPO.
+* **Recursive self-intelligence (RSI) emerging:** Karpathy's focus on using Claude to accelerate pre-training research is viewed by some analysts as evidence that RSI -- AI improving AI in a compounding loop -- is approaching a critical threshold. This could explain the race to IPO (need public-market liquidity for compute) and the compute crunch (demand is non-linear while supply scaling is linear).
+
+The overarching story is that Anthropic's convergence of talent, profitability, and compute access -- combined with OpenAI's IPO preparation and Nvidia's earnings -- has reset the baseline for what frontier labs can achieve. The old narrative that these companies were uncommercial startups is dead; the numbers are now on the scale of Fortune 50 giants, and the IPO race between them will determine market dynamics for the rest of 2026.
