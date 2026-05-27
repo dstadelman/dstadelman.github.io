@@ -1,12 +1,12 @@
 ---
 layout: "post"
-title: "What the Pope Actually Said About AI"
+title: "Summary: What the Pope Actually Said About AI"
 date: 2026-05-27
 ---
 
 https://podcasters.spotify.com/pod/show/nlw/episodes/What-the-Pope-Actually-Said-About-AI-e3jucn5
 
-## Summary
+## Summary: What the Pope Actually Said About AI
 
 **AI Daily Brief** · May 26, 2026
 
