@@ -4,6 +4,16 @@ title: "Legal AI Tools, Law Firm Cuts, and the Corporate Playbook for 2026"
 date: 2026-05-27
 ---
 
+# Executive Summary
+
+Corporate law spending just surpassed the combined revenue of the top 10 US external law firms for the first time, even as corporate legal departments continue to cut headcount at record highs to fund internal AI infrastructure. Enterprise AI tools like Harvey and Casetext have shifted from experimental "toys" to essential infrastructure, with top-tier firms already saving hundreds of thousands of hours on document review and contract negotiation. The critical divide in the market today is no longer about who adopts AI, but how deeply they've integrated it—teams using it simply for "cut and paste" drafting see near-zero value, while those leveraging it as a true workflow multiplier are rapidly outpacing their legacy competitors.
+
+- **The Historic Spending Shift:** In-house legal spending has overtaken the top 10 external US law firms for the first time in history, yet corporate legal departments are cutting internal headcount at their highest rate in 14 years as capital is redirected toward AI infrastructure.
+- **The Tool "Arms Race":** Enterprise platforms led by Harvey ($11B valuation) and Casetext have become the new baseline for legal competitiveness, delivering over 142,000 hours of saved time for early adopters while the rest of the industry grapples with fragmented tools and "AI fatigue."
+- **The Integration Gap:** The vast majority of legal teams (64%) still operate with zero dedicated AI tools, and the firms that treat AI merely as a drafting shortcut find its value drops to nearly zero—real leverage requires deep, multi-product integration and an upskilled workforce.
+
+The legal industry is not facing an AI takeover so much as a massive, widening efficiency gap—organizations that treat AI as a strategic workflow multiplier will rapidly eclipse the legacy competitors trapped in the "cut and paste" era.
+
 # Legal AI Tools, Law Firm Cuts, and the Corporate Playbook for 2026
 
 Legal AI has moved from experimental pilot programs into core infrastructure for law firms and corporate legal departments alike. What was a speculative conversation at legal tech conferences two years ago is now a budgeting line item at major corporations -- and a headline reason for workforce reductions at the world's largest law firms.
