@@ -4,11 +4,10 @@ title: "Summary: What the Pope Actually Said About AI"
 date: 2026-05-27
 ---
 
-https://podcasters.spotify.com/pod/show/nlw/episodes/What-the-Pope-Actually-Said-About-AI-e3jucn5
-
 ## Summary: What the Pope Actually Said About AI
 
 **AI Daily Brief** · May 26, 2026
+Podcast: [AI Daily Brief – "What the Pope Actually Said About AI"](https://podcasters.spotify.com/pod/show/nlw/episodes/What-the-Pope-Actually-Said-About-AI-e3jucn5)
 
 ### Headlines
 
@@ -41,16 +40,3 @@ The bulk of the episode covers Pope Leo XIV's first encyclical, *Magnifica Human
 - **The Dean Ball / AI cognition debate:** Dean Ball expressed frustration that the Pope didn't grapple with AI personhood, calling the encyclical's "axiomatic denial of AI cognition" a "punt of the highest order." Jonathan Lytle called this baffling: "What do you expect the Pope to think about that?" Ball's deeper point was that the Church should contemplate "what humans should do as we are eclipsed as the smartest entities on the planet."
 
 **The "Jevons Paradox" moment:** Levie's observation about Box—that AI made finding bugs easy but the hard part is now triage and fixes—is described as "Jevons Paradox all over again." The host also notes that the encyclical's discourse has been "elevated compared to the average mudfest that is the discourse on AI."
-
-## Source
-
-Podcast: [AI Daily Brief – "What the Pope Actually Said About AI"](https://podcasters.spotify.com/pod/show/nlw/episodes/What-the-Pope-Actually-Said-About-AI-e3jucn5)
-
-## Errors and Corrections
-
-These names and details from the source transcript were verified against live sources and corrected:
-
-- **Liang Wenfeng** (not "Liang Wenfang") — DeepSeek founder per Forbes, Bloomberg, and Wikipedia.
-- **"Chief Water Use lie propagator Karen Howe"** is almost certainly a hallucination/garbled speech-to-text rendering. No credible figure by this name is connected to the encyclical reception. The only Karen Howe in Catholic media is an Anglican deacon with no AI commentary presence.
-- **"Boyandungu"** is also not a real person — no credible figure by this name exists in AI/Catholic circles and the search results returned only a red herring (a Rwanda eco-park).
-- **Jevons Paradox** (not "Javon's Paradox") — the economic concept named after William Stanley Jevons.
