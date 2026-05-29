@@ -6,12 +6,13 @@ usage() {
 Delete old GitHub Actions workflow runs with the GitHub CLI.
 
 By default this is a dry run. Pass --delete to actually remove runs.
+The newest runs are kept separately for each workflow.
 
 Usage:
   scripts/delete_old_workflow_runs.sh [options]
 
 Options:
-  -k, --keep COUNT       Number of newest runs to keep. Default: 1
+  -k, --keep COUNT       Number of newest runs to keep per workflow. Default: 1
   -R, --repo OWNER/REPO  Repository to clean. Default: current repository
   -w, --workflow NAME    Workflow file name or workflow ID to clean only one workflow
       --delete           Actually delete old runs
@@ -32,13 +33,13 @@ die() {
 }
 
 print_runs() {
-  local line id created_at name title branch
+  local line workflow_id id created_at name title branch
 
   printf '%-14s %-25s %-24s %-45s %s\n' "ID" "CREATED" "WORKFLOW" "TITLE" "BRANCH"
   printf '%-14s %-25s %-24s %-45s %s\n' "--" "-------" "--------" "-----" "------"
 
   for line in "$@"; do
-    IFS=$'\t' read -r id created_at name title branch <<<"$line"
+    IFS=$'\t' read -r workflow_id id created_at name title branch <<<"$line"
     printf '%-14s %-25s %-24s %-45s %s\n' "$id" "$created_at" "$name" "$title" "$branch"
   done
 }
@@ -93,14 +94,14 @@ else
   endpoint="$endpoint_repo/actions/runs?per_page=100"
 fi
 
-jq_filter='.workflow_runs[]? | [(.id | tostring), .created_at, (.name // ""), (.display_title // ""), (.head_branch // "")] | @tsv'
+jq_filter='.workflow_runs[]? | [(.workflow_id | tostring), (.id | tostring), .created_at, (.name // ""), (.display_title // ""), (.head_branch // "")] | @tsv'
 if ! runs_output="$(gh api --paginate "$endpoint" --jq "$jq_filter")"; then
   die "failed to fetch workflow runs"
 fi
 
 runs=()
 if [[ -n "$runs_output" ]]; then
-  mapfile -t runs <<<"$runs_output"
+  mapfile -t runs < <(printf '%s\n' "$runs_output" | LC_ALL=C sort -t $'\t' -k3,3r -k2,2nr)
 fi
 
 run_count=${#runs[@]}
@@ -109,10 +110,26 @@ if [[ "$run_count" -eq 0 ]]; then
   exit 0
 fi
 
-kept_runs=("${runs[@]:0:keep}")
-delete_runs=("${runs[@]:keep}")
+declare -A workflow_counts=()
+kept_runs=()
+delete_runs=()
 
-echo "Found $run_count workflow run(s). Keeping ${#kept_runs[@]}, deleting ${#delete_runs[@]}."
+for line in "${runs[@]}"; do
+  IFS=$'\t' read -r workflow_id _id _created_at name _title _branch <<<"$line"
+  workflow_key="${workflow_id:-unknown:$name}"
+  workflow_count="${workflow_counts[$workflow_key]:-0}"
+
+  if [[ "$workflow_count" -lt "$keep" ]]; then
+    kept_runs+=("$line")
+  else
+    delete_runs+=("$line")
+  fi
+
+  workflow_counts[$workflow_key]=$((workflow_count + 1))
+done
+
+workflow_count=${#workflow_counts[@]}
+echo "Found $run_count workflow run(s) across $workflow_count workflow(s). Keeping ${#kept_runs[@]}, deleting ${#delete_runs[@]}."
 echo
 echo "Keeping:"
 print_runs "${kept_runs[@]}"
@@ -134,7 +151,7 @@ if [[ "$delete" -ne 1 ]]; then
 fi
 
 for line in "${delete_runs[@]}"; do
-  IFS=$'\t' read -r run_id _created_at _name title _branch <<<"$line"
+  IFS=$'\t' read -r _workflow_id run_id _created_at _name title _branch <<<"$line"
   delete_args=(run delete "$run_id")
 
   if [[ -n "$repo" ]]; then
