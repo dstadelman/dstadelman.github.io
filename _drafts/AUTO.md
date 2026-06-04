@@ -42,59 +42,93 @@ collapsed to signatures, the entire correlation matrix fits comfortably in memor
 
 ## The method (the analytical spine)
 
-1. **Bucket** alerts into time windows (start with 5 minutes).
-2. For each **pair of signatures**, count how often they land in the same window across all
-   of history.
-3. From those counts, compute **association strength**:
-   - **Lift** — values > 1 indicate a real positive association (beyond base rates).
-   - **Conditional probability** `P(B | A)` — directional: "when A fires, B follows X% of
-     the time."
-4. Keep pairs that clear a **minimum support** count (kills noise) and a strength threshold.
+We measure how often pairs of alert signatures occur close together in time, across all of
+history, and turn that into a directional correlation score.
 
-The output is an **edge list**: `(signature_A, signature_B, strength)`. That edge list *is*
-the correlation knowledge base. Store it as a Postgres table. Runtime correlation becomes a
-simple ordered lookup.
+### Why an interval join, not fixed time buckets
 
-### Core engine (SQL sketch)
+The naive approach is to chop time into fixed 15-minute buckets and pair alerts that share a
+bucket. That has a fatal flaw: the **boundary problem**. If alert A fires near the end of one
+bucket and alert B fires shortly after, in the *next* bucket, they are only seconds apart but
+land on opposite sides of an arbitrary line — so a bucket-based join never pairs them. Real
+correlations get silently dropped depending on where the clock happens to fall.
+
+The fix is an **interval (range) join**: pair A and B whenever B fires within **15 minutes**
+*after* A, measured directly against the actual timestamps. There are no buckets and no
+boundaries, so nothing falls through a crack. Pairing "B after A" also makes the relationship
+**directional**, which is exactly what we want for "when A fires, B tends to follow."
+
+### Core engine (interval join)
 
 ```sql
-WITH bucketed AS (
-  SELECT date_bin('5 minutes', alert_time, TIMESTAMP '2020-01-01') AS bucket,
-         signature
-  FROM alerts
-  GROUP BY 1, 2            -- dedupe within bucket; keeps the self-join sane
+-- For each A-event, find the B-signatures that fire within 15 minutes after it
+WITH followed AS (
+  SELECT a.signature AS sig_a, a.alert_time AS a_time, b.signature AS sig_b
+  FROM alerts a
+  JOIN alerts b
+    ON b.alert_time >  a.alert_time
+   AND b.alert_time <= a.alert_time + interval '15 minutes'
+   AND b.signature <> a.signature
 ),
-pairs AS (
-  SELECT a.signature AS sig_a, b.signature AS sig_b, COUNT(*) AS cooccur
-  FROM bucketed a
-  JOIN bucketed b ON a.bucket = b.bucket AND a.signature < b.signature
+-- collapse so multiple B-firings don't overcount a single A-event
+pair_events AS (
+  SELECT DISTINCT sig_a, a_time, sig_b
+  FROM followed
+),
+pair_counts AS (
+  SELECT sig_a, sig_b, COUNT(*) AS a_events_followed_by_b
+  FROM pair_events
   GROUP BY 1, 2
-  HAVING COUNT(*) >= 5     -- support threshold
+  HAVING COUNT(*) >= 5          -- minimum support; kills noise
+),
+sig_counts AS (
+  SELECT signature, COUNT(*) AS n_events
+  FROM alerts
+  GROUP BY 1
 )
-SELECT sig_a, sig_b, cooccur,
-       cooccur::float / ca.n AS p_b_given_a,
-       (cooccur::float * t.N) / (ca.n * cb.n) AS lift
-FROM pairs
-JOIN (SELECT signature, COUNT(DISTINCT bucket) n FROM bucketed GROUP BY 1) ca
-  ON ca.signature = sig_a
-JOIN (SELECT signature, COUNT(DISTINCT bucket) n FROM bucketed GROUP BY 1) cb
-  ON cb.signature = sig_b
-CROSS JOIN (SELECT COUNT(DISTINCT bucket) N FROM bucketed) t;
+SELECT pc.sig_a, pc.sig_b,
+       pc.a_events_followed_by_b,
+       pc.a_events_followed_by_b::float / sa.n_events AS p_b_follows_a
+FROM pair_counts pc
+JOIN sig_counts sa ON sa.signature = pc.sig_a
+ORDER BY p_b_follows_a DESC;
 ```
 
-Notes:
-- Cost scales with **signatures-per-bucket**, not total row count, which is why the
-  dedupe-within-bucket `GROUP BY` matters.
-- Fixed time bins can miss correlations that straddle a bin boundary. Ship fixed bins first;
-  if accuracy needs improving, switch to an interval join on
-  `abs(a.alert_time - b.alert_time) <= window`.
+The headline signal is **`p_b_follows_a`** = "of all the times A fired, the fraction where B
+followed within 15 minutes." It is directional and intuitive, and it *is* the correlation
+knowledge base. Store the output as a Postgres table; runtime correlation is then just:
+
+```sql
+SELECT sig_b, p_b_follows_a
+FROM correlations
+WHERE sig_a = $firing_signature
+ORDER BY p_b_follows_a DESC
+LIMIT 20;
+```
+
+Notes and refinements:
+
+- **Index `alert_time`** (btree). The interval join's cost scales with alert *density* — how
+  many alerts fall inside any 15-minute span — not with total row count. A wider window (we
+  chose 15 min) is more forgiving of timing but pulls in larger neighborhoods, so the join
+  does more work and storms can spike it. Cap or sample pathological storm windows if needed.
+- **Direction vs symmetry.** As written this captures "B follows A." That directionality is
+  usually what you want (lead/lag, root cause). For a symmetric "they co-occur" view, also
+  count the reverse direction, or use `abs(b.alert_time - a.alert_time) <= interval '15 minutes'`.
+- **Base-rate correction (optional).** A noisy alert that fires constantly will look correlated
+  with everything. To correct, divide `p_b_follows_a` by B's background rate over a 15-minute
+  span (roughly `n_events_B * 15min / total_time_span`). Values well above 1 are genuinely
+  associated beyond chance. Add this once the core is working.
+- **Alternative view for validation (optional).** *Sessionization* — grouping alerts into
+  bursts that break only after a quiet gap — matches how incidents actually behave and can be
+  run as a second opinion to sanity-check the interval results on a known past incident.
 
 ### Clustering: where it actually belongs
 
-Take the edge list, threshold it, and run **graph community detection** (Louvain / Leiden via
-networkx or igraph — minutes of work). This yields **groups of alerts that storm together**,
-so at runtime we can collapse, say, 40 active alerts into "one incident — community #7."
-This is the right kind of clustering for this problem.
+Take the correlation table, threshold it, and run **graph community detection**
+(Louvain / Leiden via networkx or igraph — minutes of work). This yields **groups of alerts
+that storm together**, so at runtime we can collapse, say, 40 active alerts into
+"one incident — community #7." This is the right kind of clustering for this problem.
 
 **On DBSCAN** (Density-Based Spatial Clustering of Applications with Noise): it groups points
 packed tightly together and flags isolated points as noise/outliers. Knobs are `epsilon`
@@ -131,8 +165,8 @@ cross-history analysis.
 
 | Days | Work |
 |------|------|
-| 1–2  | Define the signature, check distinct-signature cardinality, pick window size |
-| 3–5  | Build the co-occurrence job → produce the edge table |
+| 1–2  | Define the signature, check distinct-signature cardinality, confirm 15-min window |
+| 3–5  | Build the interval-join co-occurrence job → produce the correlation table |
 | 6–7  | Build the correlation graph + community detection + the runtime lookup query |
 | 8–9  | Wire live alerts to the lookup, basic output, add the LLM summary layer |
 | 10   | Buffer: validate and tune thresholds |
@@ -158,8 +192,8 @@ Technique-to-business-language translation:
 
 | What it is | How to describe it |
 |------------|--------------------|
-| Co-occurrence mining | Unsupervised pattern learning across 5 years of incidents |
-| Lift / conditional probability | Probabilistic correlation scoring |
+| Interval co-occurrence mining | Unsupervised pattern learning across 5 years of incidents |
+| `p_b_follows_a` / base-rate correction | Probabilistic correlation scoring |
 | Graph + community detection | AI-driven incident graph that discovers how failures cascade |
 | Dependency overlay | Topology-aware root-cause inference |
 | The whole system | A self-learning correlation engine that improves every night |
