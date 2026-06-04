@@ -43,7 +43,8 @@ collapsed to signatures, the entire correlation matrix fits comfortably in memor
 ## The method (the analytical spine)
 
 We measure how often pairs of alert signatures occur close together in time, across all of
-history, and turn that into a directional correlation score.
+history, weight recent history more heavily, and turn that into a directional correlation
+score.
 
 ### Why an interval join, not fixed time buckets
 
@@ -58,7 +59,30 @@ The fix is an **interval (range) join**: pair A and B whenever B fires within **
 boundaries, so nothing falls through a crack. Pairing "B after A" also makes the relationship
 **directional**, which is exactly what we want for "when A fires, B tends to follow."
 
-### Core engine (interval join)
+### Recency weighting
+
+Alert relationships drift as infrastructure changes — services get re-architected, renamed,
+re-wired — so a co-occurrence from four years ago should not count as much as one from last
+month. We handle this with **exponential time decay**: instead of counting each co-occurrence
+as `1`, we count it as a weight that shrinks with age, governed by a **half-life**:
+
+```
+weight = 0.5 ^ (age_in_days / half_life_days)
+```
+
+A co-occurrence one half-life old counts half as much, two half-lives old a quarter, and so
+on. **Critical rule:** apply the same decay to the numerator *and* the denominator, so the
+probability stays honest — `p_b_follows_a` is *weighted* A-events followed by B divided by
+*weighted* total A-events. If only the top is decayed, the ratio is distorted.
+
+The **half-life is the single tuning knob** and is easy to explain: "how long until old
+evidence counts half as much." Choose it by how fast the environment changes — shorter
+(~90 days) if services churn frequently, longer (6–12 months) if stable. Start at **180 days**
+and tune by checking that the model reproduces *recent* known incidents better than ancient
+ones. `power()` per row is essentially free, so this is the cheapest robustness upgrade in the
+whole pipeline.
+
+### Core engine (interval join + recency weighting)
 
 ```sql
 -- For each A-event, find the B-signatures that fire within 15 minutes after it
@@ -75,34 +99,44 @@ pair_events AS (
   SELECT DISTINCT sig_a, a_time, sig_b
   FROM followed
 ),
-pair_counts AS (
-  SELECT sig_a, sig_b, COUNT(*) AS a_events_followed_by_b
+-- recency weight per A-event (180-day half-life)
+weighted AS (
+  SELECT sig_a, sig_b, a_time,
+         power(0.5, (CURRENT_DATE - a_time::date)::float / 180) AS w
   FROM pair_events
+),
+pair_counts AS (
+  SELECT sig_a, sig_b,
+         COUNT(*) AS raw_cooccur,   -- raw count = noise floor (statistical reliability)
+         SUM(w)   AS wt_cooccur     -- recency-weighted co-occurrence
+  FROM weighted
   GROUP BY 1, 2
-  HAVING COUNT(*) >= 5          -- minimum support; kills noise
+  HAVING COUNT(*) >= 5              -- minimum support; kills noise
 ),
 sig_counts AS (
-  SELECT signature, COUNT(*) AS n_events
+  SELECT signature,
+         SUM(power(0.5, (CURRENT_DATE - alert_time::date)::float / 180)) AS wt_n_events
   FROM alerts
   GROUP BY 1
 )
 SELECT pc.sig_a, pc.sig_b,
-       pc.a_events_followed_by_b,
-       pc.a_events_followed_by_b::float / sa.n_events AS p_b_follows_a
+       pc.raw_cooccur,
+       pc.wt_cooccur / sa.wt_n_events AS p_b_follows_a_weighted
 FROM pair_counts pc
 JOIN sig_counts sa ON sa.signature = pc.sig_a
-ORDER BY p_b_follows_a DESC;
+ORDER BY p_b_follows_a_weighted DESC;
 ```
 
-The headline signal is **`p_b_follows_a`** = "of all the times A fired, the fraction where B
-followed within 15 minutes." It is directional and intuitive, and it *is* the correlation
-knowledge base. Store the output as a Postgres table; runtime correlation is then just:
+The headline signal is **`p_b_follows_a_weighted`** = "of all the times A fired (recent
+firings weighted more), the fraction where B followed within 15 minutes." It is directional,
+recency-aware, and intuitive — and it *is* the correlation knowledge base. Store the output as
+a Postgres table; runtime correlation is then just:
 
 ```sql
-SELECT sig_b, p_b_follows_a
+SELECT sig_b, p_b_follows_a_weighted
 FROM correlations
 WHERE sig_a = $firing_signature
-ORDER BY p_b_follows_a DESC
+ORDER BY p_b_follows_a_weighted DESC
 LIMIT 20;
 ```
 
@@ -112,13 +146,17 @@ Notes and refinements:
   many alerts fall inside any 15-minute span — not with total row count. A wider window (we
   chose 15 min) is more forgiving of timing but pulls in larger neighborhoods, so the join
   does more work and storms can spike it. Cap or sample pathological storm windows if needed.
+- **Keep both the weighted score and the raw support floor.** Recency weighting controls *how
+  much* an old relationship fades; the `COUNT(*) >= 5` floor controls *whether* a pair has
+  enough samples to trust at all. They do different jobs — without the floor, a single recent
+  fluke can outrank a well-established pattern.
 - **Direction vs symmetry.** As written this captures "B follows A." That directionality is
   usually what you want (lead/lag, root cause). For a symmetric "they co-occur" view, also
   count the reverse direction, or use `abs(b.alert_time - a.alert_time) <= interval '15 minutes'`.
 - **Base-rate correction (optional).** A noisy alert that fires constantly will look correlated
-  with everything. To correct, divide `p_b_follows_a` by B's background rate over a 15-minute
-  span (roughly `n_events_B * 15min / total_time_span`). Values well above 1 are genuinely
-  associated beyond chance. Add this once the core is working.
+  with everything. To correct, divide the weighted probability by B's background rate over a
+  15-minute span. Values well above the baseline are genuinely associated beyond chance. Add
+  this once the core is working.
 - **Alternative view for validation (optional).** *Sessionization* — grouping alerts into
   bursts that break only after a quiet gap — matches how incidents actually behave and can be
   run as a second opinion to sanity-check the interval results on a known past incident.
@@ -166,14 +204,15 @@ cross-history analysis.
 | Days | Work |
 |------|------|
 | 1–2  | Define the signature, check distinct-signature cardinality, confirm 15-min window |
-| 3–5  | Build the interval-join co-occurrence job → produce the correlation table |
+| 3–5  | Build the interval-join + recency-weighted co-occurrence job → correlation table |
 | 6–7  | Build the correlation graph + community detection + the runtime lookup query |
 | 8–9  | Wire live alerts to the lookup, basic output, add the LLM summary layer |
-| 10   | Buffer: validate and tune thresholds |
+| 10   | Buffer: validate, tune the half-life and thresholds |
 
 **Validation tip (worth a half-day):** if we have past incidents with IDs or postmortems,
-use them as ground truth — confirm the communities recover those known groupings. This is how
-we defend the thresholds when someone asks "why these numbers?"
+use them as ground truth — confirm the communities recover those known groupings, and that
+recency weighting favors recent incident structure. This is how we defend the parameters when
+someone asks "why these numbers?"
 
 ## Executive positioning
 
@@ -193,14 +232,14 @@ Technique-to-business-language translation:
 | What it is | How to describe it |
 |------------|--------------------|
 | Interval co-occurrence mining | Unsupervised pattern learning across 5 years of incidents |
-| `p_b_follows_a` / base-rate correction | Probabilistic correlation scoring |
+| Recency-weighted `p_b_follows_a` | Recency-weighted probabilistic correlation scoring that adapts as the environment changes |
 | Graph + community detection | AI-driven incident graph that discovers how failures cascade |
 | Dependency overlay | Topology-aware root-cause inference |
 | The whole system | A self-learning correlation engine that improves every night |
 
-**One-line pitch:** *"It learns from every alert we've ever fired, predicts which alerts are
-really one incident, and uses an LLM to explain it in plain English to the on-call engineer —
-cutting alert noise and mean-time-to-resolution."*
+**One-line pitch:** *"It learns from every alert we've ever fired — weighting recent behavior
+most — predicts which alerts are really one incident, and uses an LLM to explain it in plain
+English to the on-call engineer, cutting alert noise and mean-time-to-resolution."*
 
 **Caution:** do not let it get sold as "the LLM does it." If leadership believes it is a thin
 LLM wrapper, we inherit LLM expectations (and eventually "why not just use ChatGPT?").
@@ -212,3 +251,4 @@ engine"* earns the credit while protecting the work technically and politically.
 1. **Distinct-signature count** — determines feasibility and whether normalization is needed first.
 2. **Labeled past incidents** — availability determines how rigorously we can validate and tune.
 3. **Runtime latency target** — affects how the online lookup is served.
+4. **Half-life starting point** — how fast does our service topology actually change? Drives the decay setting.
