@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "How to Use /Goal to Do More With AI"
+title: "Summary: How to Use /Goal to Do More With AI"
 date: 2026-06-08
 ---
 
