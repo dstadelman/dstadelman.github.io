@@ -200,48 +200,48 @@ For the healthcare AI industry, the Mayo Clinic model sets a precedent for insti
 
 ## Sources
 
-[1] "Mayo Clinic and Microsoft collaborate to develop a frontier AI model for healthcare," Microsoft/Mayo Clinic press release via PRNewswire, June 2, 2026. https://www.prnewswire.com/news-releases/mayo-clinic-and-microsoft-collaborate-to-develop-a-frontier-ai-model-for-healthcare-302788613.html
+[1] "Mayo Clinic and Microsoft collaborate to develop a frontier AI model for healthcare," Microsoft/Mayo Clinic press release via PRNewswire, June 2, 2026. [Link](https://www.prnewswire.com/news-releases/mayo-clinic-and-microsoft-collaborate-to-develop-a-frontier-ai-model-for-healthcare-302788613.html)
 
-[2] "MAI-Thinking-1," Microsoft AI official model page, June 2, 2026. https://microsoft.ai/models/mai-thinking-1/
+[2] "MAI-Thinking-1," Microsoft AI official model page, June 2, 2026. [Link](https://microsoft.ai/models/mai-thinking-1/)
 
-[3] Microsoft AI, "MAI-Thinking-1 Technical Paper," June 2, 2026. https://microsoft.ai/wp-content/uploads/2026/06/main_20260602_2.pdf
+[3] Microsoft AI, "MAI-Thinking-1 Technical Paper," June 2, 2026. [Link](https://microsoft.ai/wp-content/uploads/2026/06/main_20260602_2.pdf)
 
-[4] Mustafa Suleyman, "Building a hill-climbing machine: Launching seven new MAI models," Microsoft AI blog, June 2, 2026. https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/
+[4] Mustafa Suleyman, "Building a hill-climbing machine: Launching seven new MAI models," Microsoft AI blog, June 2, 2026. [Link](https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/)
 
-[5] Mary Jo Foley, "Microsoft, OpenAI Amend Their Agreement Again," Directions on Microsoft, April 27, 2026. https://www.directionsonmicrosoft.com/microsoft-openai-amend-their-agreement-again/
+[5] Mary Jo Foley, "Microsoft, OpenAI Amend Their Agreement Again," Directions on Microsoft, April 27, 2026. [Link](https://www.directionsonmicrosoft.com/microsoft-openai-amend-their-agreement-again/)
 
-[6] Microsoft and OpenAI, "The next phase of the Microsoft-OpenAI partnership," Microsoft blog, April 27, 2026. https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/
+[6] Microsoft and OpenAI, "The next phase of the Microsoft-OpenAI partnership," Microsoft blog, April 27, 2026. [Link](https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/)
 
-[7] OpenAI, "The next phase of Microsoft partnership," OpenAI official index, April 27, 2026. https://openai.com/index/next-phase-of-microsoft-partnership/
+[7] OpenAI, "The next phase of Microsoft partnership," OpenAI official index, April 27, 2026. [Link](https://openai.com/index/next-phase-of-microsoft-partnership/)
 
-[8] "Frontier Tuning: Teaching AI to work the way you do," Microsoft Developer Blog, June 2, 2026. https://devblogs.microsoft.com/microsoft365dev/frontier-tuning-teaching-ai-to-work-the-way-you-do/
+[8] "Frontier Tuning: Teaching AI to work the way you do," Microsoft Developer Blog, June 2, 2026. [Link](https://devblogs.microsoft.com/microsoft365dev/frontier-tuning-teaching-ai-to-work-the-way-you-do/)
 
-[9] Josh Bersin, "The Enormous Potential For Microsoft Frontier Fine Tuning," Josh Bersin Company, June 2026. https://joshbersin.com/2026/06/the-enormous-potential-for-microsoft-frontier-fine-tuning/
+[9] Josh Bersin, "The Enormous Potential For Microsoft Frontier Fine Tuning," Josh Bersin Company, June 2026. [Link](https://joshbersin.com/2026/06/the-enormous-potential-for-microsoft-frontier-fine-tuning/)
 
-[10] "Azure AI Foundry," Microsoft Azure official product page. https://azure.microsoft.com/en-us/products/ai-foundry
+[10] "Azure AI Foundry," Microsoft Azure official product page. [Link](https://azure.microsoft.com/en-us/products/ai-foundry)
 
-[11] Andrew Ng, "Microsoft fully trains its own models," The Batch (DeepLearning.AI), June 2026. https://www.deeplearning.ai/the-batch/microsoft-fully-trains-its-own-models
+[11] Andrew Ng, "Microsoft fully trains its own models," The Batch (DeepLearning.AI), June 2026. [Link](https://www.deeplearning.ai/the-batch/microsoft-fully-trains-its-own-models)
 
-[12] "Mayo Clinic, Microsoft partner on healthcare AI model development," Investing.com company news, June 2, 2026. https://www.investing.com/news/company-news/mayo-clinic-microsoft-partner-on-healthcare-ai-model-development-93CH-4722750
+[12] "Mayo Clinic, Microsoft partner on healthcare AI model development," Investing.com company news, June 2, 2026. [Link](https://www.investing.com/news/company-news/mayo-clinic-microsoft-partner-on-healthcare-ai-model-development-93CH-4722750)
 
-[13] Mayo Clinic Platform, 10-year anniversary overview (2000-2025). https://www.mayoclinicplatform.org/
+[13] Mayo Clinic Platform, 10-year anniversary overview (2000-2025). [Link](https://www.mayoclinicplatform.org/)
 
-[14] "Mayo Clinic Platform_Accelerate," Mayo Clinic Platform official site. https://www.mayoclinicplatform.org/focus-areas/digital-health/accelerate/
+[14] "Mayo Clinic Platform_Accelerate," Mayo Clinic Platform official site. [Link](https://www.mayoclinicplatform.org/focus-areas/digital-health/accelerate/)
 
-[15] Maneesh Goyal, "Mayo Clinic Platform_Accelerate Hits 100 Companies, $1B in Funding," LinkedIn post, March 5, 2026. https://www.linkedin.com/posts/goyalmaneesh_healthtech-digitalhealth-aiinhealthcare-activity-7435520785357684736-AX7G
+[15] Maneesh Goyal, "Mayo Clinic Platform_Accelerate Hits 100 Companies, $1B in Funding," LinkedIn post, March 5, 2026. [Link](https://www.linkedin.com/posts/goyalmaneesh_healthtech-digitalhealth-aiinhealthcare-activity-7435520785357684736-AX7G)
 
-[16] CNN, "People are flooding AI chatbots with health questions," CNN Technology, June 2, 2026. https://www.cnn.com/2026/06/02/tech/ai-for-healthcare-microsoft-mayo-clinic
+[16] CNN, "People are flooding AI chatbots with health questions," CNN Technology, June 2, 2026. [Link](https://www.cnn.com/2026/06/02/tech/ai-for-healthcare-microsoft-mayo-clinic)
 
-[17] "Mayo Clinic Platform_Accelerate announces latest cohort of AI startups," Mayo Clinic News Network, October 14, 2025. https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-platform_accelerate-announces-latest-cohort-of-ai-startups/
+[17] "Mayo Clinic Platform_Accelerate announces latest cohort of AI startups," Mayo Clinic News Network, October 14, 2025. [Link](https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-platform_accelerate-announces-latest-cohort-of-ai-startups/)
 
-[18] "Developing a Research Center for AI in Medicine," Mayo Clinic Platform Digital Health, October 25, 2024. https://www.mcpdigitalhealth.org/article/S2949-7612(24)00106-8/fulltext
+[18] "Developing a Research Center for AI in Medicine," Mayo Clinic Platform Digital Health, October 25, 2024. [Link](https://www.mcpdigitalhealth.org/article/S2949-7612(24)00106-8/fulltext)
 
-[19] "Assessing Artificial Intelligence Solution Effectiveness," PMC/NTIS, August 6, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11976003/
+[19] "Assessing Artificial Intelligence Solution Effectiveness," PMC/NTIS, August 6, 2024. [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC11976003/)
 
-[20] "Mayo Clinic AI helps specialists detect pancreatic cancer up to 3 years before diagnosis," Mayo Clinic News Network, April 29, 2026; published in Gut (BMJ), April 22, 2026. https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-ai-detects-pancreatic-cancer-up-to-3-years-before-diagnosis-in-landmark-validation-study/ https://gut.bmj.com/content/early/2026/04/22/gutjnl-2025-337266
+[20] "Mayo Clinic AI helps specialists detect pancreatic cancer up to 3 years before diagnosis," Mayo Clinic News Network, April 29, 2026; published in Gut (BMJ), April 22, 2026. [Mayo Clinic](https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-ai-detects-pancreatic-cancer-up-to-3-years-before-diagnosis-in-landmark-validation-study/) | [Gut (BMJ)](https://gut.bmj.com/content/early/2026/04/22/gutjnl-2025-337266)
 
-[21] Zain Khalpey, "AI ECG Detects Undiagnosed Liver Cirrhosis," Nature npj Digital Medicine, December 2025. https://www.nature.com/articles/s41746-026-02718-y_reference.pdf
+[21] Zain Khalpey, "AI ECG Detects Undiagnosed Liver Cirrhosis," Nature npj Digital Medicine, December 2025. [Link](https://www.nature.com/articles/s41746-026-02718-y_reference.pdf)
 
-[22] "A Mayo Clinic-developed AI model can help specialists detect pancreatic cancer," Mayo Clinic, April 30, 2026. https://www.facebook.com/MayoClinic/videos/a-mayo-clinic-developed-artificial-intelligence-ai-model-can-help-specialists-de/963395576231948/
+[22] "A Mayo Clinic-developed AI model can help specialists detect pancreatic cancer," Mayo Clinic, April 30, 2026. [Link](https://www.facebook.com/MayoClinic/videos/a-mayo-clinic-developed-artificial-intelligence-ai-model-can-help-specialists-de/963395576231948/)
 
 [23] "Mayo Clinic posts $1.5B profit in 2025, charity care remains below average," Minnesota Public Radio, March 5, 2026. https://www.mprnews.org/story/2026/03/05/mayo-clinic-posts-15b-profit-in-2025-charity-care-remains-below-average
