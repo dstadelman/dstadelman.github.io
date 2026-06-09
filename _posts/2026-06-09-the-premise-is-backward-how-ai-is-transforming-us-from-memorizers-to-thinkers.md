@@ -85,25 +85,25 @@ The anxiety about AI's cognitive effects is not baseless. But it is misdirected.
 
 ## Sources
 
-[1] Jose et al., "The Cognitive Paradox of AI in Education: Between Enhancement and Erosion," Frontiers in Psychology, Volume 16, April 2025. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1550621/full
+[1] Jose et al., "The Cognitive Paradox of AI in Education: Between Enhancement and Erosion," Frontiers in Psychology, Volume 16, April 2025. [Link](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1550621/full)
 
-[2] MDPI Brain & Cognition, "The Subtle Influence of AI on Human Thought: Cognitive Offloading Benefits," March 2026. https://www.mdpi.com/2075-4698/15/1/6
+[2] MDPI Brain & Cognition, "The Subtle Influence of AI on Human Thought: Cognitive Offloading Benefits," March 2026. [Link](https://www.mdpi.com/2075-4698/15/1/6)
 
-[3] Plato, Phaedrus 274c-275b (circa 370 BCE). The myth of Theuth and Thamus, as cited in Bloomink, "Socrates, Memory & The Internet," Philosophy Now Issue 122. https://philosophynow.org/issues/122/Socrates_Memory_and_The_Internet
+[3] Plato, Phaedrus 274c-275b (circa 370 BCE). The myth of Theuth and Thamus, as cited in Bloomink, "Socrates, Memory & The Internet," Philosophy Now Issue 122. [Link](https://philosophynow.org/issues/122/Socrates_Memory_and_The_Internet)
 
-[4] Crow, M.M., Mayberry, N.K., Mitchell, T., and Anderson, D., "AI Can Transform the Classroom Just Like the Calculator," Scientific American, April 17, 2024. https://www.scientificamerican.com/article/ai-can-transform-the-classroom-just-like-the-calculator/
+[4] Crow, M.M., Mayberry, N.K., Mitchell, T., and Anderson, D., "AI Can Transform the Classroom Just Like the Calculator," Scientific American, April 17, 2024. [Link](https://www.scientificamerican.com/article/ai-can-transform-the-classroom-just-like-the-calculator/)
 
-[5] Sparrow, B., Liu, J., and Wegner, D.M., "Google Effects on Memory: Cognitive Consequences of Having Information at Our Fingertips," *Proceedings of the National Academy of Sciences*, Vol. 108, No. 7, pp. 3152-3157, 2011. https://psycnet.apa.org/doi/10.1037/e633982013-286
+[5] Sparrow, B., Liu, J., and Wegner, D.M., "Google Effects on Memory: Cognitive Consequences of Having Information at Our Fingertips," *Proceedings of the National Academy of Sciences*, Vol. 108, No. 7, pp. 3152-3157, 2011. [Link](https://psycnet.apa.org/doi/10.1037/e633982013-286)
 
-[6] Barnes, Sean, "We've Been Here Before -- A History of Cognitive Concern," Computer & Technology Network, March 2, 2026. https://www.ctnet.co.uk/cognitive-effects-technology-history/
+[6] Barnes, Sean, "We've Been Here Before -- A History of Cognitive Concern," Computer & Technology Network, March 2, 2026. [Link](https://www.ctnet.co.uk/cognitive-effects-technology-history/)
 
-[7] Boussioux et al., "The Crowdless Future? Generative AI and Creative Problem-Solving," Organization Science, Vol. 36, Issue 1, August 16, 2024. https://pubsonline.informs.org/doi/10.1287/orsc.2023.18430
+[7] Boussioux et al., "The Crowdless Future? Generative AI and Creative Problem-Solving," Organization Science, Vol. 36, Issue 1, August 16, 2024. [Link](https://pubsonline.informs.org/doi/10.1287/orsc.2023.18430)
 
-[8] HBS AI Institute, "The Creative Edge: How Human-AI Collaboration is Reshaping Problem-Solving," January 23, 2025. https://aiinstitute.hbs.edu/the-creative-edge-how-human-ai-collaboration-is-reshaping-problem-solving/
+[8] HBS AI Institute, "The Creative Edge: How Human-AI Collaboration is Reshaping Problem-Solving," January 23, 2025. [Link](https://aiinstitute.hbs.edu/the-creative-edge-how-human-ai-collaboration-is-reshaping-problem-solving/)
 
-[9] Boussioux et al., "The Crowdless Future? Generative AI and Creative Problem-Solving," Organization Science, Vol. 36, Issue 1, August 16, 2024. DOI: 10.1287/orsc.2023.19430. https://pubsonline.informs.org/doi/10.1287/orsc.2023.18430. Cost and time figures (HC at $2,555 and 2,520 hours vs. HAI at $27.01 and 5.5 hours) verified from HBS AI Institute summary.
+[9] Boussioux et al., "The Crowdless Future? Generative AI and Creative Problem-Solving," Organization Science, Vol. 36, Issue 1, August 16, 2024. DOI: 10.1287/orsc.2023.19430. [Link](https://pubsonline.informs.org/doi/10.1287/orsc.2023.18430). Cost and time figures (HC at $2,555 and 2,520 hours vs. HAI at $27.01 and 5.5 hours) verified from HBS AI Institute summary.
 
-[10] Doshi, A.R., and Hauser, O.P., "Generative AI Enhances Individual Creativity but Reduces the Collective Diversity of Novel Content," Science Advances, Volume 10, Issue 28, July 12, 2024. DOI: 10.1126/sciadv.adn5290. https://www.science.org/doi/10.1126/sciadv.adn5290
+[10] Doshi, A.R., and Hauser, O.P., "Generative AI Enhances Individual Creativity but Reduces the Collective Diversity of Novel Content," Science Advances, Volume 10, Issue 28, July 12, 2024. DOI: 10.1126/sciadv.adn5290. [Link](https://www.science.org/doi/10.1126/sciadv.adn5290)
 
 [11] Doshi and Hauser, Science Advances, July 2024. As summarized in the article itself and in HBS AI Institute reference. The study found AI-assisted stories rated as "more creative, better written, and more enjoyable," with the effect strongest among less creative writers.
 
