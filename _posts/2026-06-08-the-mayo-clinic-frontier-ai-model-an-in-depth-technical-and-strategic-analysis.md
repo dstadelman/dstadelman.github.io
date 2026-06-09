@@ -238,7 +238,7 @@ For the healthcare AI industry, the Mayo Clinic model sets a precedent for insti
 
 [19] "Assessing Artificial Intelligence Solution Effectiveness," PMC/NTIS, August 6, 2024. [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC11976003/)
 
-[20] "Mayo Clinic AI helps specialists detect pancreatic cancer up to 3 years before diagnosis," Mayo Clinic News Network, April 29, 2026; published in Gut (BMJ), April 22, 2026. [Mayo Clinic](https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-ai-detects-pancreatic-cancer-up-to-3-years-before-diagnosis-in-landmark-validation-study/) | [Gut (BMJ)](https://gut.bmj.com/content/early/2026/04/22/gutjnl-2025-337266)
+[20] "Mayo Clinic AI helps specialists detect pancreatic cancer up to 3 years before diagnosis," Mayo Clinic News Network, April 29, 2026; published in Gut (BMJ), April 22, 2026. [Mayo Clinic](https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-ai-detects-pancreatic-cancer-up-to-3-years-before-diagnosis-in-landmark-validation-study/)  [Gut (BMJ)](https://gut.bmj.com/content/early/2026/04/22/gutjnl-2025-337266)
 
 [21] Zain Khalpey, "AI ECG Detects Undiagnosed Liver Cirrhosis," Nature npj Digital Medicine, December 2025. [Link](https://www.nature.com/articles/s41746-026-02718-y_reference.pdf)
 
