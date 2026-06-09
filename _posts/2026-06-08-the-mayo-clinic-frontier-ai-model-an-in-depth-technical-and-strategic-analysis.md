@@ -244,4 +244,4 @@ For the healthcare AI industry, the Mayo Clinic model sets a precedent for insti
 
 [22] "A Mayo Clinic-developed AI model can help specialists detect pancreatic cancer," Mayo Clinic, April 30, 2026. [Link](https://www.facebook.com/MayoClinic/videos/a-mayo-clinic-developed-artificial-intelligence-ai-model-can-help-specialists-de/963395576231948/)
 
-[23] "Mayo Clinic posts $1.5B profit in 2025, charity care remains below average," Minnesota Public Radio, March 5, 2026. https://www.mprnews.org/story/2026/03/05/mayo-clinic-posts-15b-profit-in-2025-charity-care-remains-below-average
+[23] "Mayo Clinic posts $1.5B profit in 2025, charity care remains below average," Minnesota Public Radio, March 5, 2026. [Link](https://www.mprnews.org/story/2026/03/05/mayo-clinic-posts-15b-profit-in-2025-charity-care-remains-below-average)
