@@ -1,0 +1,29 @@
+---
+layout: "post"
+title: "Summary: The AI Chart Everyone Is Getting Wrong"
+date: 2026-06-22
+---
+
+# Summary: The AI Chart Everyone Is Getting Wrong
+
+[AI Daily Brief - The AI Chart Everyone Is Getting Wrong](https://aidailybrief.ai/e/2026-06-12)
+
+A viral chart from Citadel Securities has Wall Street panicking about an "AI downturn" that doesn't exist at all. The Silicon Data LLM Token Expenditure Index shows falling token prices, not falling demand -- but the difference matters enormously. Alongside that, SpaceX completes its historic $135 IPO, Bezos's Promethus enters the physical AI arena, Meta dismantles its $2B Manus deal under Chinese pressure, and Goldman Sachs calls all the bears wrong on AI capex once again.
+
+* **SpaceX's $135 IPO hits the market**: Shares priced at $135, valued at roughly $1.8 trillion -- making it the seventh-largest public company on Earth. Retail investors submitted over $100 billion in orders for a $75 billion offering; after reducing the retail allocation from 30% to 20%, the retail queue alone was 7x oversubscribed. Goldman Sachs had simultaneously run the IPO while forecasting $474 billion in SpaceX revenue by 2030, raising obvious conflict-of-interest questions. The flat pricing structure (no price discovery mechanism) sets the stage for significant Day One volatility.
+
+* **Elon Musk nears trillionaire status**: Musk's net worth sits just shy of $700 billion with over 60% in SpaceX. The new IPO pricing values his stake at $971 billion -- any meaningful pop pushes him past the trillion-dollar mark. Bloomberg confirmed Musk had effectively become the world's first trillionaire by the time markets opened, with SpaceX stock up roughly 60% in its first three trading days.
+
+* **The "token panic" narrative is founded on a mislabeled chart**: Citadel Securities shared Silicon Data's "Token Expenditure Index" showing a sharp downward trend. Social media commentators declared it proof of collapsing AI demand. Silicon Data corrected their own messaging: the index measures the *weighted average price* paid per million tokens, not total volume or total expenditure. The data actually comes exclusively from third-party token routers -- companies whose entire business model is routing traffic to cheaper alternatives -- meaning the chart exaggerates the shift away from frontier model pricing. The price decline likely reflects token routing optimization, not falling demand from the major labs.
+
+* **Token efficiency is now the real story, not token collapse**: The chart does signal something important -- AI companies are becoming token efficiency companies. As agentic workloads consume orders of magnitude more tokens than assisted workflows, even temporary price dips trigger spending caps at major firms. Ramp's data shows the top 1% of firms spent roughly $7,500 per employee on AI, but the median company sits at $11.38/month per employee. The aggregate growth in total AI consumption vastly outpaces any basket-shifting toward cheaper tokens. Goldman Sachs expects $1.1-1.4 trillion in AI capex next year -- a 20-53% increase over Wall Street's median forecast.
+
+* **Bezos's Promethus enters physical AI**: Prometheus announced a $12 billion funding round at a $41 billion valuation, aiming to build what it calls an "artificial general engineer" -- an AI that designs and manufactures physical goods, including things like jet engines. Backed by JP Morgan, Goldman Sachs, BlackRock, and Bezos himself. Bezos dismissed AI job apocalypse fears, arguing AI creates more opportunities than it eliminates -- "you shrink the people needed by 10x, but AI creates 10x more opportunities." The company is also launching a fund to acquire legacy industrial companies, essentially buying its way into the manufacturing data infrastructure that doesn't exist to be scraped for training.
+
+* **Meta completes operational split from Manus**: Meta firewalled itself from the $2 billion Manus acquisition after Chinese regulators blocked the deal. Meta staff lost access to Manus data systems; Manus staff lost access to Meta's tools. Manus attempted to circumvent tech export controls by relocating to Singapore first -- a now-failed strategy the article calls "red-chip corporate structure." Chinese tech startups are now rapidly unwinding their foreign corporate structures to reincorporate domestically after Beijing sent a clear message. Capital and talent face a major crackdown in China's AI sector.
+
+* **Chip supply chains fragment under TSMC pressure**: Google is evaluating Samsung for memory I/O components of its 10th-gen TPUs (codenamed Icefish) for the first time, breaking from its exclusive TSMC relationship. TSMC's multi-year backlog is forcing a new multi-vendor architecture: TSMC produces only the processor die with its most advanced fabs while Intel, Samsung, and others handle less-sensitive components. Google also placed orders with Intel for 2028 advanced packaging services.
+
+* **KKR and NVIDIA launch $10 billion data center JV**: Helix Digital Infrastructure combines KKR's capital, NVIDIA's chips and infrastructure, Kuwait's sovereign wealth, and Vistra's power generation under the leadership of Adam Selipsky, former AWS CEO. Another deal of its kind follows Broadcom's recent AI data center partnership with Apollo and Blackstone -- signaling a consolidation between chip makers, utilities, and capital providers.
+
+The real takeaway isn't about token panic or bubble-bursting charts. It's about a market maturing. Token economics are shifting -- not from abundance to scarcity, but from subsidy to efficient allocation. The firms spending the most are already capping usage. Most companies haven't even started. As the episode puts it, what looks like a bubble pop to social media commentators is actually a market doing exactly what markets do: figuring out to allocate scarce resources at the right price to the right customers.
