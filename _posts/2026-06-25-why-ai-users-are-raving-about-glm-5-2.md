@@ -1,0 +1,19 @@
+---
+layout: "post"
+title: "Why AI Users Are Raving About GLM-5.2"
+date: 2026-06-25
+---
+
+# Summary: Why AI Users Are Raving About GLM-5.2
+
+[AI Daily Brief - Why AI Users Are Raving About GLM 5.2](https://aidailybrief.beehiiv.com/p/why-ai-users-are-raving-about-glm-52)
+
+The AI Daily Brief examines why Zhipu AI's newly released GLM-5.2 open-weight model has sent shockwaves through the industry, prompting comparisons to DeepSeek R1 as a potential paradigm shift. The model's arrival also coincides with major reshuffling at Google DeepMind and growing speculation about when Anthropic's suspended Claude Fable 5 will return -- setting up what could be the busiest week in AI history.
+
+* **GLM-5.2 is an open-weight model rivaling frontier models:** Released June 13, 2026 by Zhipu AI (Z.AI), GLM-5.2 carries 753 billion parameters under an MIT license with a 1 million token context window. On Design Arena's web design leaderboard it ranks first at 1360 Elo -- ahead of Claude Fable 5, which is now suspended. Vercel CEO Guillermo Rauch said he was "genuinely impressed, almost shocked" by its coding quality, while Itamar Golan noted it was the first open or public model that felt meaningfully close to frontier lab quality across real tasks.
+* **The NSA Mythos controversy -- put in perspective:** Over the weekend, reporting resurfaced from The Economist quoting Senator Mark Warner that NSA Director Gen. Joshua Rudd had said Claude Mythos "broke into almost all of our classified systems not in weeks, but in hours." This seemed to justify Anthropic's export ban -- until journalist Shashank Joshi added critical context: the quote was based on a controlled red-team exercise in which Mythos operated alongside other tools under specific conditions. Policy commentator Peter Wildeford outlined more plausible scenarios including simulated exercises against replica systems rather than actual NSA classified networks, which are physically air-gapped from the internet.
+* **A talent exodus at DeepMind intensifies:** Nobel laureate John Jumper -- who shared the 2024 Nobel Prize in Chemistry with Demis Hassabis for AlphaFold -- announced he is leaving DeepMind for Anthropic. He follows Gemini co-lead Noam Shazeer, the Transformer pioneer, who departed for OpenAI earlier that same week. AI researchers reported demoralization at DeepMind after GLM-5.2's Artificial Analysis Intelligence Index ranking overtook Gemini 3.1 Pro -- the lab has gone four months without a flagship model release.
+* **The Claude Fable 5 return is still uncertain:** Despite Trump saying he regards Dario Amodei as "a nice guy, smart guy" and ruling out the Defense Production Act for AI, the ban remains. AI reporter Andrew Curran claims Anthropic has finished training a successor -- potentially Mythos 5.1 or Mythos 6 -- but it is unclear if or when it will be released publicly. Meanwhile, Claude Sonnet 5 and GPT-5.5 are also rumored to be nearing their own releases.
+* **Open-weight models challenge the two-horse race:** Box CEO Aaron Levie argues that frontier-level open-weight models guarantee sovereign AI options and let companies post-train for specific workflows. Even if Claude returns, GLM-5.2's arrival means the competitive landscape -- particularly on cost-performance tradeoffs -- has fundamentally shifted. For businesses, Levie recommends not racing to abandon their core subscriptions but giving at least part of the organization license to experiment with alternative model architectures.
+
+GLM-5.2 is shaping up to be as significant a moment for open models as DeepSeek R1 was -- except this time, industry leaders believe it has enough genuine depth (in coding, design, and agentic workflows) to survive first contact with real-world usage rather than fading after the benchmark buzz.
