@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Friday Night Bitch Session: The Families Who Think Our Non-Talking Kids Are "Just Deciding Not to""
+title: "Friday Night Bitch Session: The Families Who Think Our Non-Talking Kids Are \"Just Deciding Not to\" Talk"
 date: 2026-06-26
 ---
 
