@@ -1,0 +1,22 @@
+---
+layout: "post"
+title: "Summary: The Capability Overhang Playbook"
+date: 2026-07-01
+---
+
+# Summary: The Capability Overhang Playbook
+
+[Nufar Gaspar - The AI Daily Brief ](https://aidailybrief.ai/e/2026-06-28)
+
+AI Daily Brief host Nufar Gaspar uses a period of forced pause in frontier model releases as an opportunity to propose a practical "capability overhang playbook" -- actions individuals and organizations should take while waiting for the next generation of AI models. The episode frames the current landscape: anticipated releases of GPT-5.6, Sonnet 5, and Google Gemini 3.5 Pro have all been delayed amid a government crackdown on Anthropic's Claude Fable 5 and Mythos 5 models, creating what Gaspar calls an "involuntary AI pause." Rather than waiting idly for the next breakthrough, he argues the most productive use of this time is to close the gap between available agent capabilities and how most people actually use them today.
+
+* **Model releases have stalled:** GPT-5.6 has been pushed to mid-July from original predictions near 90% odds; Google DeepMind is delaying Gemini 3.5 Pro citing unresolved quality issues; Anthropic's Claude Sonnet 5 remains an early-access stopgap for enterprise customers only. Prediction markets show only 24% confidence Fable 5 returns by early July and 72% by late August, complicating near-term planning.
+* **Build a personal learning agenda:** Gaspar's first recommendation is honest self-assessment -- map your actual capability gaps with current tools before deciding where to invest time. He calls out his own gap: wiring an agentic system for distributing social media content from his podcast workflow. The exercise itself may replace the rest of the playbook.
+* **Create a personal eval portfolio:** Pin down tasks that matter most in your work and turn them into reusable evaluation sets -- prompts, expected outputs, success criteria. When new models arrive, you'll immediately see where they fit your stack instead of guessing.
+* **Build portable context assets:** A Glean/Work AI Institute study found workers spend 2.4 hours per week just organizing context for their AI tools. Two approaches: build a broad personal context portfolio (contextportfolio.ai offers an interactive builder; template files exist on GitHub) or create per-project context packs for focused, shareable workspaces. The Librarian by Jim Sangwine is highlighted as another tool for auto-curating agent context.
+* **Experiment with the full agent-tool stack:** Rather than sticking with one harness (Claude Code or Codex), build the same project in both to compare interfaces, tool integration, and model feel. Explore industry-specific plugins available across tools. If you've resisted building a real agent architecture, Gaspar points to aidbagentos.ai as a free program to get started -- using split windows for building and tutoring simultaneously.
+* **Explore model independence:** With the current regulatory uncertainty around frontier models, consider building skills in model routers (OpenRouter), open models on Hugging Face, or multi-model strategies. Ask yourself what matters most: cost, privacy, portability, control, or policy risk? Organizations should reevaluate their policies on open and routed models.
+* **Organizational playbook:** Review whether your company's AI learning resources are current with agentic tools (not retro prompt-engineering videos). Evaluate incentive structures -- are people rewarded for experimentation or just known use cases? Create a measurement philosophy that distinguishes adoption, usage, and outcomes to avoid an "efficiency AI only" trap. The goal should be "opportunity AI" -- new products and capabilities not previously possible.
+* **Advanced patterns:** Consider the slash-goal primitive for setting objectives and evaluating outputs rather than managing step-by-step interactions. Turn your context portfolios into MCP servers for instant transportability across tools. Package recurring workflows as reusable agent skills that any team member can leverage.
+
+The episode's core thesis: closing the capability overhang matters whether or not new models arrive. A quiet period removes the distraction of chasing the next release and creates focus to genuinely improve how you and your organization use AI -- today, with the tools you have in hand.
