@@ -1,0 +1,28 @@
+---
+layout: "post"
+title: "How to Get the Most from AI This Summer"
+date: 2026-07-30
+---
+
+# Summary: How to Get the Most from AI This Summer
+
+[The AI Daily Brief - How to Get the Most from AI This Summer](https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Get-the-Most-from-AI-This-Summer-e3migrs)
+
+Host Nathaniel Whittemore's weekend episode takes a hands-on approach to closing the gap between what AI can do and what people are actually using it for. The show covers two major resources: Ethan Mollica's updated opinionated guide to AI tools and the newly launched "AI Summer Adventure" training program, both aimed at helping users move from casual AI chatbots into serious agentic workflows.
+
+* **Ethan Mollica's updated AI tool guide**: [Unverified-by-web] Harvard-affiliated blogger Ethan (likely "Malik" per transcript) Mollica published his next iteration of the opinionated guide to which AI to use for different tasks. The key insight: everything has been split into two interaction patterns. For low-stakes queries (recipes, basic writing help), any model -- including free ones -- works fine. But for anything you care about, the choices narrow sharply to premier models like Claude (referred to in the transcript as "Fable," which was correct per reporting at this time) or GPT-5.6 Sol at high thinking levels. For intensive work, only ChatGPT and Claude remain viable options; Gemini has been dropped from his rankings entirely.
+
+* **Agent systems vs. chatbots -- the new paradigm**: Mollica draws a bright line between old-style chatbot interaction (talking to a model back-and-forth) and agentic systems (combining model intelligence with tool access to plan and act autonomously). He effectively describes agent harnesses without using the word "harness" -- deliberately keeping the concept accessible for non-technical users. The practical example: giving either ChatGPT or Claude access to his email and Drive, then telling them to prep for an MBA seminar. Both connected to his Gmail, correctly figured out the date was September not August, researched on the web, prepared presentation materials, and one even sent a draft email to a colleague -- all in about 10 minutes.
+
+* **Permissions are everything**: A recurring theme from Mollica's experience is that *what you let AI agents access determines what they can do*. ChatGPT sent an email because he'd previously granted it send permission; Claude asked first because he hadn't. Moving from "ask for approval" to "auto-execute" should be gradual -- only expand permissions once you understand a system's error modes and trust its judgment on your behalf.
+
+* **The AI Summer Adventure from AIDB and Super Intelligent**: A new free, choose-your-own-adventure training platform at summeradventure.ai with 20+ destinations organized by difficulty level (beginner, intermediate, advanced) and topic area. The program builds on AIDB's earlier "New Year" challenge and "Claw Camp" series, targeting people who want practical agentic operating systems rather than just theory. Key project tiers include:
+  - **Quick Trips** (beginner): Bite-sized projects like "Pack Your ID," teaching you to create a context profile any AI can use; and its advanced version, "Personal Brain" -- a small fileset that teaches AI who you are and how you work.
+  - **Excursions** (intermediate): Building things that outlast the session -- creative direction, vibe coding projects, personal context packs.
+  - **Expeditions** (advanced): Work-transforming programs like "Lemonade Stand" (building a micro business with an AI staffed ops manual across three planning sprints) and "The Loop" (applying agentic loop patterns to non-technical work, including model selection and failure modes).
+
+* **Enterprise shift toward infrastructure**: The episode highlights how conversations in corporate AI are accelerating from tool exploration to operational infrastructure -- governed systems, cloud providers, and vendor accountability. Several sponsors were featured: Robots & Pencils (AWS-focused production agents), Rackspace Technology (enterprise AI infrastructure operator), Blitzy (autonomous enterprise codebase platform), HyperAgent ($1,000 inference trial by Airtable's team), KPMG/UT Austin research on high-impact AI users and reasoning partner patterns. Note: the Spotify page sponsor list (KPMG, HyperAgent, Retool, Rackspace, Section, Scrunch, Blitzy, AssemblyAI, Robots & Pencils) includes some sponsors not mentioned in the audio (Retool, Scrunch).
+
+* **Google's diminished position yet continued value**: Mollica dropped Gemini from his main rankings entirely but still recommends Google's ecosystem for NotebookLM/Gemini Notebook and Gemini Omni's video capabilities. This marks a notable inflection point -- Google remains useful for specific features but no longer competes as a front-tier reasoning model.
+
+The core takeaway: 2026's critical challenge in AI use is the "capability overhang" -- the gap between what AI can do and what people actually deploy it for. There is almost no one on Earth who doesn't carry some capability overhang, even researchers inside the leading labs. The Summer Adventure and Mollica's guide share a common philosophy: treat AI agents like coworkers you manage, not chatbots you converse with -- learn to delegate work, set permissions thoughtfully, and iterate progressively from asking-and-approving to trusting-and-delegating. The window for doing this at your own pace without enterprise pressure is open now through early September.
