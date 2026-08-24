@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: 'AI Companies Still Haven't Delivered on Their Biggest Promises'
+title: "AI Companies Still Haven't Delivered on Their Biggest Promises"
 date: 2026-08-17
 ---
 
