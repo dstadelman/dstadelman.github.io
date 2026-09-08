@@ -6,7 +6,7 @@ date: 2026-09-03
 
 # Summary: AI News And The Manufactured Internet
 
-[Plausibly Deniable - AI News And The Manufactured Internet | Brian Chau](https://open.spotify.com/episode/4gyXofHTgwXxrvLaKw0h29)
+[Plausibly Deniable - AI News And The Manufactured Internet](https://open.spotify.com/episode/4gyXofHTgwXxrvLaKw0h29)
 
 In this Plausibly Deniable episode, host Lucas sits down with Brian Chau -- a former machine-learning engineer, author of the "From the New World" Substack, a one-time DC pro-AI lobbyist, and now the operator of Effort.New, a venture that runs long-context AI queries to surface under-reported stories. The conversation covers how modern LLM writing has degraded, how AI can be turned on government data to break real stories, and a long critique of what the hosts call the "manufactured Internet" -- protests, NGOs, and media narratives they argue are privately funded and artificially manufactured.
 
