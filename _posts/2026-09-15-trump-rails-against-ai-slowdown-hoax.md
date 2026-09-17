@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Trump Rails Against AI Slowdown &quot;Hoax&quot;"
+title: 'Trump Rails Against AI Slowdown "Hoax"'
 date: 2026-09-15
 ---
 
