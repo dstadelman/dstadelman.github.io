@@ -1,0 +1,39 @@
+---
+layout: "post"
+title: "How People Are Actually Using Jev"
+date: 2026-09-25
+---
+
+# Summary: How People Are Actually Using Jev
+
+[AI Daily Brief - How People Are Actually Using Jev](https://podcasters.spotify.com/pod/show/nlw/episodes/How-People-Are-Actually-Using-Jev-e3pd0rj)
+
+Ten days after launch, Jev -- TypeSafe's blazing-fast "System One" judgment model -- has moved from viral emoji demos to real production use cases. The episode walks through six categories of actual work people are putting Jev to, from ad teardowns and live-prioritized inboxes to evaluating AI agents and smart form-filling. The takeaway is that cheap, instant judgment at scale is a new primitive, not just another chatbot.
+
+* **What Jev is:** TypeSafe calls Jev a System One model, named after Daniel Kahneman's Thinking, Fast and Slow -- fast, instinctive pattern matching and snap judgments rather than writing. It doesn't generate text word by word like GPT-6 or an Opus model; it takes input and returns typed decisions attached to probabilities.
+* **Three question types:** Jev answers exactly three kinds of questions -- choice (pick the best fit from up to 255 options, with a probability and confidence on each), score (place something on a 2-to-10 level scale you describe in words), and noul, or Bernoulli (a calibrated zero-to-one probability that a yes-no statement is true).
+* **Why the economics matter:** A million input tokens costs about 4.2 cents and output is free, with each call taking roughly 70 to 500 milliseconds -- and because questions run in parallel, TypeSafe found asking 13 questions in a single call was 12.2x cheaper and 10x faster than asking one at a time, with identical answers.
+* **What Jev does not do:** It's a trade-off -- Jev won't write code, draft contracts, or make nuanced multi-factor decisions; it's built for small judgments at volume. The hype has already turned into money, with TypeSafe reportedly in talks to raise as much as $1 billion at a $10 billion or higher valuation, a big jump from a $40 million seed at $200 million.
+
+## Six ways people are actually using Jev
+
+* **1. Analyzing what you already have:** Run the same few questions over a whole pile you already own and count the answers. Matthew Berman broke down 724 live ads from 37 brands on 12 questions each (hook, format, offer, CTA, awareness) at about 173 ms per ad -- 40 seconds and 9 cents for the lot, then had Jev scroll 723 ads as 30 buyer archetypes to generate 21,690 stop-or-scroll decisions for 22 cents.
+* **Archive analysis as a habit:** It's a "hypothesis generator" rather than real buyer data, but a natural way to pressure-test angles before paying for real tests; Ian Nuttall ran eight questions across roughly 3,300 of his past X posts for about 13 cents to compare against his engagement metrics. Any pile works -- a year of customer emails, CRM notes, or a folder of meeting transcripts.
+* **2. Searching by meaning:** Describe what you mean in plain words and let Jev check every candidate, so it can find it even when the words don't match. Justine Moore of a16z used it to scan thousands of Zillow listings and classify them by things no filter supports, like architectural style, renovation status, or proximity to freeways.
+* **Clipping and audits:** Burhan Usman clipped a 90-minute video by described theme -- predictions about when AI will automate AI research -- in under two seconds for under two cents, and Borja (X) ran Jev over all 586 pages of a website to rebuild its internal link map in 45.1 seconds for 21 cents, where Claude Opus 5 got through 21 pages and spent a buck 43.
+* **Filtering what you read:** The same logic extends to reading -- Robin Bilgil built a real-time AI slop detector that scores every X post as you scroll, and Elvis (X) checked 384 morning news stories against 15 brands in 24.9 seconds for 19 cents, in the window where Opus 5 read just four of them.
+* **3. Triaging what comes in:** The "what is this, and where does it go" category covers importance, malicious links, and lead routing. Jonathan (X) built a live-prioritized inbox -- Jev rated 100 emails in 453 milliseconds for about a tenth of a cent and matched his own ratings on every one.
+* **No other LLM calls:** Marcel Pociot built a macOS app that spots invoices in his Downloads folder and files them with the right name using only Jev; Dev Ed moderates livestream chat as messages arrive; and Steven Tey of Dub fed Jev 10,000 malicious domains caught before to flag bad links in two hours.
+* **4. Checking work against your rules:** Turn "please review this" into a set of specific yes-no questions and ask about every draft. LangChain used Jev to grade an AI agent's work the same way every time, with Harrison Chase calling it great for online evals that grade lots of traces; as more teams put support bots and research agents into production, cheap consistent evaluation could become core infrastructure.
+* **Writing at scale:** Every planted mistakes in 12 passages of writing, and Jev caught six of the seven against Claude Fable 5.1's seven -- but in 0.35 seconds versus 8.83, at roughly 580x lower cost. The practical move is translating a style guide or banned-phrase list into yes-no checks that run on every paragraph, which is a difference in kind from one generic LLM pass over a whole document.
+* **5. Speeding up AI agents:** Use small micro-judgments to route an agent to the right intelligence, context, skills, and tools. Vechen (X) had Jev adjust GPT-6's reasoning effort inside Codex mid-task, cutting Astra costs by 50% with faster runs; Dani Avila built a Jev skill suggester for Claude Code that injects only the matching skill into context, an 88% drop in tokens and cost.
+* **Harnesses that learn the job:** You'll see judgment models built natively into the harnesses we use -- AJ Asver's AML-review harness cut costs by 90% by moving steps from LLM calls into code as it runs, and a compliance-alerts harness dropped cost per alert from about $2.95 to 25 cents by alert 1,000.
+* **6. Responding instantly:** "What does this person want right now" -- the smart-paste category. Marcus Lowe (X) framed it as "what if copy paste was smart," copying a resume and pasting it into an application so the fields fill themselves; Nomandsign (X) did the same by splitting pasted text, working out each field, checking against the original, and pasting only the confident matches.
+
+## Where to be careful
+
+* **Judgment without reasoning:** Jev returns a number with no reasoning attached, which is a real risk in hiring, money, and security -- it argues for a hybrid system where a separate LLM reviews borderline candidates for a second look. TypeSafe itself flags weak spots: accuracy drops on multi-step questions, and it can extract facts but should not do the math, dates, or intent-reading on its own.
+* **Four criteria for a good Jev task:** You can write the answer down in advance (a category, a yes-no, a scale); there's volume or a stream; a wrong answer is cheap or easy to catch; and the evidence fits as text under 32,000 tokens.
+* **Write good questions:** One judgment per question -- not "is this a good lead?" (which bundles industry fit, company size, and buying intent), but those pieces separately; describe every level of a scale in words; and test before trusting it, like hand-labeling 50 emails and comparing.
+
+Cheap, instant judgment at scale is a new primitive, not another chatbot. Ten days in, the pattern is clear: when a judgment gets 40 to 400 times cheaper, you stop sampling and start asking questions about everything -- every ad, every email, every page, every agent step -- and it's still early for how deeply that weaves into the rest of the stack.
