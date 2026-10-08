@@ -1,0 +1,36 @@
+---
+layout: "post"
+title: "What the Best Business AI Users Are Doing Different"
+date: 2026-10-02
+---
+
+# Summary: What the Best Business AI Users Are Doing Different
+
+[AI Daily Brief - What the Best Business AI Users Are Doing Different](https://podcasters.spotify.com/pod/show/nlw/episodes/What-the-Best-Business-AI-Users-Are-Doing-Different-e3pp6f5)
+
+Nathaniel Whittemore's October 2 AI Daily Brief opens with a news round of headlines and closes on the episode's main topic: what the most successful business AI users are actually doing differently. The through-line is KPMG's Q3 AI Pulse survey, a study of more than 2,100 senior leaders across 20 countries that splits organizations into those still experimenting and those already banking ROI, and finds the gap reads like a roadmap for where everyone else is headed. Along the way the show covers Meta's best month since 2022, Anthropic's push for a pre-Thanksgiving IPO, Google's first TPUs in orbit, and OpenAI firing three safety researchers.
+
+* **The core finding**: The best business AI adopters are not buying better models -- they are building a stronger management layer on top of AI, with model routers, data-sovereignty strategies, and a far more robust interface through which their people interact with AI.
+* **A two-camp survey**: KPMG's Q3 Pulse of 2,100+ senior leaders in 20 countries now separates organizations still in an experimentation phase from those that have established ROI, and the distance between the two "reads like a map" of where enterprise AI is heading over the coming months.
+* **Agent adoption gap**: 48% of established-ROI organizations report significant adoption of AI agents among employees, versus only 15% of still-experimenting firms -- a gap Whittemore ties to 2026 being the year agents "became real."
+* **Cyber defense gap**: 58% of mature organizations are putting AI-assisted cyber defense in place right now, compared with just 8% of experimenters.
+* **Formal AI harness layer**: A full 86% of organizations with established ROI maintain a formal "AI harness layer" (a standardized interface for human-AI interaction), a 55-point lead over the 31% of experimenters who have one.
+* **Data sovereignty**: 53% of established-ROI organizations report an enterprise-wide data-sovereignty strategy -- a deliberate architecture for avoiding handoff of sensitive data to model labs -- compared with only 8% of experimenters.
+* **Accountability and routing**: 53% of the leaders place accountability for AI-informed decisions at the C-suite, and 23% have built model-routing capability to direct workloads to the right model.
+* **Maturity = formality**: Across every dimension -- experimentation, strategic planning, scaling, adoption, ROI -- the more mature an organization gets, the more likely it is to have a formal, cross-functional, enterprise-wide approach.
+* **Use cases are shifting**: Productivity as a key goal of AI is down (reported by 37% of organizations in Q3, down from 42% in Q1), while human-AI collaboration, responsible AI and governance, and adaptability and resilience all gained ground, and most organizations now pursue efficiency and revenue together rather than trading one off.
+* **From cost control to AI economic management**: Cost visibility is now widespread, but linking it to value is the next step -- 77% of ROI leaders run cost-monitoring dashboards (43% of experimenters), 73% do a cost review at approval (50%), and 46% have usage or token budgets (31%).
+* **Planned spend is still climbing**: The average planned AI investment over the next 12 months rose from $186M in Q1 to $210M in Q3; a year ago the same survey was still asking whether organizations had even tried an agent.
+* **Meta's best month since 2022**: Meta stock rose 27% in September -- its best single month since the November 2022 start of the "year of efficiency" -- even with a 5% slide on news of an OpenAI competitor to its Muse agent, an early win that has added roughly half a trillion dollars in market cap.
+* **The new Meta bear case**: Needham's Laura Martin credits the pivot from the metaverse to personal agentic AI but holds her rating, calling Meta "notoriously slow at monetizing new products"; Morningstar calls its enterprise ambitions "unproven." Six months ago investors questioned Meta's basic AI competence -- now they are questioning its ability to cash in.
+* **Anthropic's IPO sprint**: Bloomberg reports Anthropic aims to begin marketing its IPO the week of November 9, with an investor day for institutional buyers set for October 14 and trading targeted for early Thanksgiving week; the leaked S-1 showed an $8B operating loss on $4.6B of 2025 revenue.
+* **Largest IPO in history**: Potential investors reportedly believe the $1.8-2T target valuation is achievable, which would make it the largest IPO ever, ahead of SpaceX's record $75B raise.
+* **Trump and Dario**: A wide-ranging TIME interview reveals President Trump "liked [Dario Amodei] and his wife a lot" after a two-hour dinner, suggesting some of the White House-Anthropic friction was staff-driven; Trump is also reportedly a heavy Grok user who asked the chatbot how Venezuelans would react to capturing Maduro.
+* **TPUs in orbit**: SpaceX put Google TPUs into space for the first time, a refrigerator-sized prototype satellite built with Planet Labs that flew on a Falcon 9 rideshare as the first mission under Google's Project Suncatcher, a moonshot testing whether solar-powered compute in orbit is feasible.
+* **Suncatcher scope**: The prototype chips run only in ~15-minute bursts to protect power and thermal systems; the project is a multi-year (if not multi-decade) effort whose scale hinges on Starship, which reached orbit for the first time in September.
+* **OpenAI safety firings**: OpenAI fired three safety researchers for mishandling and sharing confidential company information with an outside AI-safety evaluation organization; reports identify them as lead contributors to the company's chain-of-thought monitoring work.
+* **Ramp AI Index**: Enterprise token spend fell 5.2% week over week even as token volume rose, a decline Ramp lead economist Ara Kharazian says is driven almost entirely by competition between OpenAI and Anthropic -- not by open-source models, which remain under 5% of business spend.
+* **OpenAI's enterprise marketplace**: An under-appreciated Dev Day announcement lets enterprises apply their OpenAI spend commitments to other open models sold through OpenAI, giving customers multi-model flexibility while OpenAI keeps the spend inside its ecosystem.
+* **KPMG / UT Austin "AI Amplifiers"**: A companion study of 523 early-career professionals found that nearly identical skill and knowledge can produce wildly different outcomes with AI; the top "Amplifiers" (~50%) win by guiding, evaluating, and iteratively refining AI output rather than by what they know.
+
+The one idea to carry out of the episode: in the enterprise, AI success is now determined less by which model you buy and more by the management layer you build -- harness, routing, sovereignty, and AI economics -- and the companies that have gotten there are pulling a measurable distance ahead of the still-experimenting majority, even as overall planned AI spend keeps rising.
