@@ -144,7 +144,7 @@ One practical note: with one GPU you need traffic control. A small "GPU guard" f
 
 - Kokoro TTS: fast, lightweight and good quality.
 - Orpheus TTS: a 3B model on llama.cpp, more expressive, supports emotion tags like laughs and sighs.
-- Chatterbox (Resemble AI): zero-shot voice cloning from a 10-20 second clip, no training. I cloned my own voice to narrate videos without recording every take. Its output carries an inaudible watermark, and I label anything that uses it as AI-generated.
+- Chatterbox (Resemble AI): voice cloning from a short reference recording. You give it a clean 10-20 second clip of the voice, and it clones from that with no fine-tuning or training run. I cloned my own voice to narrate videos without recording every take. Its output carries an inaudible watermark, and I label anything that uses it as AI-generated.
 - WhisperX: speech-to-text with word-level timestamps. It drives both the podcast pipeline and the burned-in captions on every video.
 - ACE-Step 1.5 XL: text-to-music, with CPU offload so it fits beside other work. I built a small pipeline that generates candidate tracks, keeps the good ones in a library, and mixes them under a video at several volume levels for review.
 - MiniMax Music 3: another local music model, inside ComfyUI.
