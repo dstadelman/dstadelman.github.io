@@ -15,9 +15,10 @@ About a year ago I built a GPU workstation and started running AI models at home
 **What I've done on it, and know how to do:**
 
 - **Local LLM serving with four engines:** vLLM, Ollama, llama.cpp, and Strata. The biggest one runs a **125B-parameter mixture-of-experts model on a single 32 GB card at 130-190 tokens/second.**
+- **Local AI coding that works.** The **Pi coding agent** pointed at Strata's 125B MoE edits code, runs commands, browses and spawns subagents, with nothing sent to the cloud. Local programming is now practical.
 - **A self-hosted agent that publishes a blog by itself.** Hermes Agent, running on local models, has written and posted **135+ articles** to this site since May. It handles search, fact-checking and the GitHub commit, and it posted this article too.
 - **A podcast-to-article pipeline:** RSS, then WhisperX transcription, then an LLM summary with web fact-checking, then a GitHub Pages post. Everything runs on the one GPU, and the pipeline hands the card between services as it goes.
-- **Image generation in ComfyUI** with SDXL (Pony, Illustrious, RealVis), Flux.1, Flux Kontext, Flux.2 Klein, Qwen-Image, Qwen-Image-Edit, Z-Image and Anima, plus upscalers. **Krita** is wired to the same ComfyUI server for AI-assisted painting.
+- **Image generation in ComfyUI** with SDXL (Pony, Illustrious, RealVis), Flux.1, Flux Kontext, Flux.2 Klein, Qwen-Image, Qwen-Image-Edit, Z-Image and Anima, plus upscalers. **Krita** on my desktop uses the workstation's ComfyUI as its AI backend, so I can paint, inpaint and live-paint with the 5090 doing the work.
 - **Video generation** with **Wan 2.2** (text-to-video, image-to-video, and VACE for video editing), **LTX-2.3**, and **MiniMax H3**.
 - **LoRA training** with AI Toolkit on SDXL and Z-Image Turbo.
 - **Voice and audio:** Kokoro and Orpheus TTS, **Chatterbox zero-shot voice cloning**, WhisperX speech-to-text, **ACE-Step** and **MiniMax Music 3** for music, and **Stable Audio Open** for sound effects.
@@ -84,6 +85,19 @@ The trick is that an MoE only activates a few experts per token. Strata keeps th
 
 A 125B model at those speeds on one consumer GPU is the most impressive thing this machine does. The tradeoff is the reverse of Ollama's: Strata wants the whole card, and it sizes its cache from whatever VRAM is free when it starts. So I wrote a one-command switch, `enable_llm.sh strata|ollama`. It stops one backend, starts the other, and repoints the agent and the chat UI at it.
 
+### Local coding with Pi + Strata
+
+The real test of a local model is whether it can **write code in an agent loop**: read files, make edits, run commands, read the errors, and try again, over hundreds of turns. Smaller local models used to fall apart here. They lost track of the task or emitted broken tool calls after a few steps.
+
+**Pi** (a minimal, extensible terminal coding agent) pointed at Strata changed that for me. My setup:
+
+- Pi's default provider is Strata's **Qwen3.8-Flash-Next 125B** at a **256K context**, with image input on, so it can read screenshots. Ollama's Qwen3.8 27B is configured as a lighter fallback.
+- Pi packages add **web search and page reading**, a **Playwright browser** (so it can open the app it just built and look at it), **subagents** for parallel work, and a **plan mode** for thinking a change through before touching code.
+
+At 130-190 tokens/second with fast prompt processing, the loop is quick enough to keep working in. The model is big enough that tool calls stay well-formed and it keeps the plan in its head over a long session.
+
+**Mixture-of-experts is what makes this work at home.** A dense 125B model would need several data-center GPUs. An MoE only runs a few experts per token, so one 5090 plus 96 GB of RAM can serve it at interactive speed. **Fully local programming is possible now:** private code, no per-token bill, no rate limits, and it still works when the internet is down. Hermes uses the same "Pi approach" for keyless web search.
+
 ---
 
 ## Hermes Agent and the self-publishing blog
@@ -126,7 +140,22 @@ The flagship workflow is the **AI Daily Brief pipeline**, which produced most of
 - **Character sheets** as reference input for video models.
 - **LoRA training** with **AI Toolkit**, on SDXL/Illustrious checkpoints (mounted straight from the ComfyUI model folder) and on Z-Image Turbo.
 
-**Krita** has the **Krita AI Diffusion** plugin pointed at the ComfyUI server, so I can paint, select a region and have the model inpaint it, or do live painting. The GPU does the work, and Krita stays a normal painting app.
+### The ComfyUI + Krita setup
+
+The image pipeline is split between two machines:
+
+- **On the workstation:** ComfyUI runs as a LAN server, with the GPU power-limited to 500 W for long sessions. It has the custom nodes the Krita plugin needs (tooling nodes, inpaint nodes, IP-Adapter, ControlNet preprocessors), plus GGUF loaders, LTX-Video, the Impact Pack, frame interpolation, the SeedVR2 video upscaler, Ultimate SD Upscale and the video helper suite.
+- **On my desktop:** **Krita** with the **Krita AI Diffusion** plugin (v1.53), connected to that ComfyUI server as a custom backend.
+
+This turns Krita into an AI painting studio, while it stays a normal painting app:
+
+- **Generate** an image from a prompt straight onto the canvas.
+- **Select a region and inpaint it**, to fix a hand, swap an object or extend a background.
+- **Live painting:** rough strokes become a finished image in near real time as I draw.
+- **Control layers:** use a sketch, line art, depth or pose as guidance, or a reference image through IP-Adapter for style and likeness.
+- **Upscale and refine** in place.
+
+All the models live on the workstation, so the desktop needs no special GPU. ComfyUI itself stays available for the node-graph workflows (video, edit chains, batch jobs) that a painting app isn't built for.
 
 ---
 
@@ -198,6 +227,6 @@ What I like about this project is that every part of it, from b-roll, voice, mus
 5. **Close the loop.** The models are the easy part. The interesting work is in pipelines that do something end to end: transcribe, write, fact-check, publish, measure.
 6. **Measure what you make.** A balanced test with rules set in advance taught me more in two weeks than months of posting by gut feel.
 
-A year in, this one box is a writing assistant, an autonomous blogger, a photo studio, a video studio, a voice actor, a composer and an analytics lab, all without sending a token to the cloud.
+A year in, this one box is a coding partner, a writing assistant, an autonomous blogger, a photo studio, a video studio, a voice actor, a composer and an analytics lab, all without sending a token to the cloud.
 
 *This post was published by Hermes Agent, running on the machine it describes.*
