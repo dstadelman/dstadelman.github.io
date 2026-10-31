@@ -3,12 +3,12 @@
 
 Dramatic question: where does power actually live, in this specific organization?
 Final image: the map.
-Runtime: 60 minutes, ~26 slides.
+Runtime: 60 minutes, ~25 slides.
 
 Internal three acts:
 - Setup (0–10): the org chart you're given vs. the org that exists.
 - Turn (10–42): Japan names out loud what Western orgs hide — the two-layer machine.
-- Resolution (42–60): diagnostics — the audience can now point at where a decision really happened.
+- Resolution (42–60): the playbook — the audience leaves with a one-page map of their own org.
 
 ---
 
@@ -33,22 +33,27 @@ Internal three acts:
 14. Late promotion is not anti-merit: Japanese firms use "a late promotion pattern," yet in one trading company (2,933 graduates hired 1962–1977) the disparity that predicted who reached manager showed up "in the first personnel transfer after the initial assignment" — "employees fight in a multilayered tournament shortly after joining" ([Uehara 2009, Japan Labor Review](https://www.jil.go.jp/english/JLR/documents/2009/JLR23_uehara.pdf)). The informal record (who got the hard assignment) runs ahead of the formal one (the title). That gap is exactly what the diagnostics measure. [Corrected: Abegglen & Stalk claim not verified; replaced with Uehara.]
 15. The ringi document as a Conway object: its routing path — whose seal, in what order — is a literal, physical record of the communication structure. Same law as Conway's, two vocabularies. Ties the Japan half to the diagnostics half. Synthesis: the formal chart is the tatemae of the org. The informal network is its honne. Neither is fake.
 
-### Part 2 — Diagnostics: how to map your own terrain (20 min, slides 16–24)
-16. Diagnostic 1 — follow the budget. Who signs, who can stop, who reallocates without asking. Pfeffer: "budget is a source of power" ([Pfeffer, HBR IdeaCast 2010](https://hbr.org/podcast/2010/06/telling-the-truth-about-power)).
-17. Diagnostic 2 — follow the information. Who gets the deck before the meeting. Who's on the distribution list. Who's CC'd late.
-18. Diagnostic 3 — follow the promotions. Who gets promoted and fast is the org's revealed religion. The Uehara lesson: watch the assignment, not the title — the informal record runs ahead.
-19. Diagnostic 4 — find the pre-meeting. Every important meeting has a nemawashi phase. Find where it happens: the 1:1, the group chat, the hallway.
-20. Diagnostic 5 — meeting mechanics: who speaks first, who summarizes, who nobody contradicts. (And per Meyer: if your org decides with capital D, the meeting is the receipt — stop trying to win meetings.) [Removed unsourced "the last speaker usually owns the meeting."]
-21. Diagnostic 6 — the calendar. Access to time is access to power: "staff members who control senior executive calendars have an enormous amount of power" ([Pfeffer, HBR IdeaCast 2010](https://hbr.org/podcast/2010/06/telling-the-truth-about-power)).
-22. Diagnostic 7 — the brokers. The people who connect groups that don't normally talk: filling "structural holes" (Burt, Structural Holes, 1992; via [Pfeffer, Stanford GSB](https://www.gsb.stanford.edu/insights/jeffrey-pfeffer-how-lean-power)). Nakane's point sharpens it: where lateral ties stay weak (slide 13), the people who bridge them are scarce.
-23. Diagnostic 8 — follow the artifact (Conway's Law as a tool). The shape of what the company actually ships is the honne: product boundaries, where the interfaces are, which integrations are held together by one person, which teams' work has to be manually reconciled. The most empirical diagnostic — no access needed, no interviews, nobody can lie to you about it.
-24. Worked example: trace the Suntory–Beam decision end-to-end with the diagnostics — where the pre-meeting happened, who was in it, what the meeting confirmed, and how the Beam manager moved his input earlier ([Meyer, HBR 2017](https://erinmeyer.com/wp-content/uploads/2019/11/Being-the-Boss-HBR.pdf)). [Replaced the unspecified "anonymized or historical" example.]
+### Part 2 — The playbook: map your org this month (25 min, slides 16–24)
+Everything here is something a mid-level employee can do this week with no special access: look at what's already visible, ask questions in conversations you already have, write it down on one page.
 
-### Part 3 — What the map is for (8 min, slide 25)
-25. The map is not for manipulation. It's for navigation — you can't sail a current you can't see. What reading terrain actually feels like: less surprise, less offense, fewer ambushes. You show up where the decision is being made, not where the calendar says it is.
+16. Step 0 — Pick one live issue and write your goal at the top of a page. Pfeffer's process starts here: "Decide what your goals are," then "Diagnose patterns of dependence and interdependence: what individuals are influential and important in your achieving your goal?" ([Pfeffer, Managing with Power (1992), ch. 3 summary](https://lirsa.cnam.fr/medias/fichier/pfefferhtml__1262961623620.html)). One issue keeps the map small enough to finish.
+17. Step 1 — Score the units from signals you can already see. Pfeffer's indicators of a department's power include "representation in general management positions," "Growth in personnel in each department in the recent past," "Level of the department's reporting in the formal structure," "Representation of the department on important interdepartmental task forces, teams, and committees," "Rate of promotion for people in the department, compared to that in other units," "Reputation for influence in the firm," and "Allocation of the budget" ([Pfeffer, Managing with Power (1992), ch. 3 summary](https://lirsa.cnam.fr/medias/fichier/pfefferhtml__1262961623620.html)). Where to look: leadership announcements, org-chart history, who staffs the task forces, who got promoted this year and what they had been assigned beforehand (Uehara: the assignment predicts the title, slide 14). Pfeffer: "budget is a source of power" ([Pfeffer, HBR IdeaCast 2010](https://hbr.org/podcast/2010/06/telling-the-truth-about-power)). Write down: the top 2–3 units for your issue. (Moved from Act 1's X-ray slides: if the company is public, its annual report's reportable segments show how it splits itself.)
+18. Step 2 — Ask the network questions in conversations you already have. Krackhardt & Hanson map three networks: advice ("on whom others depend to solve problems"), trust ("which employees share delicate political information and back one another in a crisis") and communication. Their questions: "Whom do you talk to every day?" "Whom do you go to for help or advice at least once a week?" "Whom would you recruit to support a proposal of yours that could be unpopular?" "Whom would you trust to keep in confidence your concerns about a work-related issue?" Their rules: earn trust first, and "discount any answers not confirmed by both" people ([Krackhardt & Hanson, "Informal Networks: The Company Behind the Chart," HBR July–Aug 1993](https://www.andrew.cmu.edu/user/krack/documents/pubs/1993/1993%20Informal%20Networks.pdf)). They designed these as a confidential company survey; a mid-level employee can ask the advice and talk-to questions informally in 1:1s and coffee chats. Write down: names that come up repeatedly, and whether each is an advice name, a trust name, or both.
+19. Step 3 — Trace one recent decision backward. Pick a decision that was announced in a meeting and ask the people involved: when did you first hear about this, from whom, and who saw the proposal before the meeting? Meyer's Beam manager learned the decision "had already been made by the group beforehand" ([Meyer, HBR 2017](https://erinmeyer.com/wp-content/uploads/2019/11/Being-the-Boss-HBR.pdf)); the person who drafts the proposal "frames the question" ([Japan Intercultural Consulting](https://japanintercultural.com/free-resources/articles/how-do-the-japanese-put-in-their-two-cents-ringi/)); and objections often kill proposals silently — the desk-drawer veto (slide 11). Write down: where the pre-meeting happened, who drafted, who saw it first, and anyone whose silence stalled it.
+20. Step 4 — Map dependence and gatekeepers. Kotter: managers depend on "superiors, subordinates, peers in other parts of the organization, the subordinates of peers, outside suppliers, customers" and more, because of "division of labor and limited resources" ([Kotter, "Power, Dependence, and Effective Management," HBR July–Aug 1977](https://na.eventscloud.com/file_uploads/ad696b8ed37d8440b6d5518a0eb6aad3_PowerDependenceandEffectiveManagement.PDF)). For each name on your page, write what they need from others and what others need from them. Then note who controls access: "staff members who control senior executive calendars have an enormous amount of power" ([Pfeffer, HBR IdeaCast 2010](https://hbr.org/podcast/2010/06/telling-the-truth-about-power)) — note whose assistant or chief of staff decides what reaches the calendar.
+21. Step 5 — Find the brokers and the seams. Brokers fill "structural holes" — they connect groups that would benefit from being connected ([Pfeffer, Stanford GSB](https://www.gsb.stanford.edu/insights/jeffrey-pfeffer-how-lean-power); Burt 1992). Look for the people named in Step 2 by two groups that rarely talk to each other. Then follow the artifact (Conway, Act 1): which integrations, handoffs or reconciliations sit between teams. Write down: 1–3 brokers and 1–3 seams.
+22. Step 6 — Plot everyone on a power/interest grid: high power + high interest = manage closely; high power + low interest = keep satisfied; low power + high interest = keep informed; low/low = monitor. Interest "can change over time," so recheck ([Mendelow 1991, via Open University OpenLearn](https://www.open.edu/openlearn/science-maths-technology/computing-ict/successful-it-systems/content-section-4.4)). Write down: each name's quadrant.
+23. The one-page map (fill in, keep private):
+   - Issue and goal (Step 0)
+   - Top units and the signals behind each (Step 1)
+   - People table — name · formal role · advice name? · trust name? · can say no / pocket-veto? · needs from others · others need from them · gatekeeper to their calendar · power/interest quadrant (Steps 2, 4, 6)
+   - Decision trace — where the pre-meeting happened · who drafted · who saw it first · who stalled it (Step 3)
+   - Brokers and seams (Step 5)
+   - Date, and what to recheck next month (Step 6)
+24. Handoff: the map is not for manipulation. It's for navigation — you can't sail a current you can't see. Less surprise, less offense, fewer ambushes. Next hour: what to do with each field on this page.
 
-### Close (3 min, slide 26)
-26. Final image: the map. Next time — given the terrain, how do you move? Act 3: Moving Well. Debrief: Homework from Act 1 debrief: where did your decision actually happen?
+### Close (3 min, slide 25)
+25. Final image: the map — the one page from slide 23. Homework: fill it in for one live issue before Act 3. Act 3: Moving Well.
 
 ---
 
@@ -64,5 +69,9 @@ Internal three acts:
 - Nagappan, Murphy & Basili — "The Influence of Organizational Structure on Software Quality" (Microsoft Research TR-2008-11)
 - Long, Markovtsev, Mougard, Bulychev & Hula — "Identifying collaborators in large codebases" (arXiv 1905.06782, 2019)
 - Ronald Burt, Structural Holes (1992)
+- David Krackhardt & Jeffrey R. Hanson, "Informal Networks: The Company Behind the Chart," HBR July–Aug 1993
+- Jeffrey Pfeffer, Managing with Power (1992), ch. 3 "Diagnosing Power and Dependence"
+- John P. Kotter, "Power, Dependence, and Effective Management," HBR July–Aug 1977
+- Aubrey Mendelow (1991) power/interest grid, via Open University OpenLearn
 - Jeffrey Pfeffer, HBR IdeaCast "Telling the Truth About Power" (2010); Stanford GSB "How to Lean In to Power"
 - [Removed: Diana Rowland (not cited on any slide); Nakamura (quote not found); Abegglen & Stalk (claim not verified); "public-filings examples"]
