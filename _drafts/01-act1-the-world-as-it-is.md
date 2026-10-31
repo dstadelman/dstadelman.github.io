@@ -3,7 +3,7 @@
 
 Dramatic question: what is this thing I live inside?
 Final image: standing at the shore.
-Runtime: 60 minutes, ~28 slides.
+Runtime: 60 minutes, ~29 slides.
 
 Internal three acts:
 - Setup (0–10): the naive lens — orgs explained by good and bad people.
@@ -38,21 +38,22 @@ Internal three acts:
 17. Synthesis slide: four traditions, one finding — hierarchy re-forms because that is what the structure selects for.
 18. The Annie line, restated academically: the structure is the evidence of human nature.
 
-### Part 3 — Structure as an X-ray of values (10 min, slides 19–22)
+### Part 3 — Structure as an X-ray of values (12 min, slides 19–24)
 19. How to read what an org actually believes: what gets measured, what gets promoted, how units are split, where budget authority sits.
 20. Example: a company split into competing reportable segments believes internal competition produces accountability.
 21. Example: a company that rotates execs through units believes loyalty is to the system, not the unit.
-22. Exercise prompt: your org's X-ray — three questions to ask this week.
+22. The human-nature answer to why we stay: Takeo Doi's amae (甘え) — "to depend and presume upon another's benevolence," the child's trust that the caregiver will indulge. Doi's claim: Japan is the only culture with an extensive vocabulary for it (amaeru, suneru to pout, tereru to be ashamed of the wish, hinekureru to take devious ways to deny it), which means the feeling is universal but only one culture institutionalized it. The corporation is a modern answer to amae: it offers security and belonging, and asks for loyalty in return.
+23. Ruth Benedict's U-curve, quoted by Doi: the arc of life in Japan is the reverse of the American one — maximum indulgence for babies and the old, maximum restriction in the middle. The org sits in that restricted middle. Naming it takes the resentment out of it.
+24. Exercise prompt: your org's X-ray — three questions to ask this week.
 
-### Part 4 — The emotional turn (12 min, slides 23–27)
-23. The objection: isn't this bleak? Isn't this giving up?
-24. The turn: it isn't cynicism, it's relief. Nothing feels like betrayal once you read structure. A wave isn't malicious. A landslide isn't personal. You stop being sad at the mountain for being a mountain.
-25. Marcus Aurelius 4.3 — the quietest retreat is the mind of the person who works well with what lies in their path. The calm isn't escaping to the mountain; it's the disposition you bring to the meeting room.
-26. You can't fight the organization, and you don't have to be sad about it. You just gotta go. (Stoics: the impediment to action advances action — 5.20.)
-27. Bridge to Act 2: next time, we learn to read the specific terrain — and we'll borrow a culture that names out loud what ours hides.
+### Part 4 — The emotional turn (10 min, slides 25–28)
+25. The objection: isn't this bleak? Isn't this giving up?
+26. The turn: it isn't cynicism, it's relief. Nothing feels like betrayal once you read structure. A wave isn't malicious. A landslide isn't personal. You stop being sad at the mountain for being a mountain.
+27. Marcus Aurelius 4.3 — nowhere a quieter retreat than in one's own mind. The calm isn't escaping to the mountain; it's the disposition you bring to the meeting room. And 5.20: the impediment to action advances action. You can't fight the organization, and you don't have to be sad about it. You just gotta go.
+28. Bridge to Act 2: next time, we learn to read the specific terrain — and we'll borrow a culture that names out loud what ours hides.
 
-### Close (3 min, slide 28)
-28. The Annie quote again — now earned. Homework: pick one decision at your company you believe happened in a meeting. Find where it actually happened.
+### Close (3 min, slide 29)
+29. The Annie quote again — now earned. Homework: pick one decision at your company you believe happened in a meeting. Find where it actually happened.
 
 ---
 
@@ -64,5 +65,7 @@ Internal three acts:
 - Han Feizi, Han Feizi (ca. 233 BCE)
 - Melvin Conway, "How Do Committees Invent?" (1968)
 - Vaish, Gajos & Manku — "Predicting Organizational Structure from Commit Data" (Microsoft Research, 2017)
+- Takeo Doi, The Anatomy of Dependence (1971) — amae; The Anatomy of Self (1986) — omote/ura, tatemae/honne
+- Ruth Benedict, The Chrysanthemum and the Sword (U-curve, via Doi)
 - Marcus Aurelius, Meditations 4.3, 5.20
 - Attack on Titan S1 (Annie Leonhart, cadet arc) — fan-transcribed quote, credit accordingly
