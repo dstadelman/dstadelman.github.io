@@ -33,12 +33,12 @@ Final image: standing at the shore.
 
 **Act 2 — Reading the Terrain (Lecture 2: How Power Actually Works)**
 Dramatic question: where does power actually live, in this specific organization?
-Now the structural lens becomes a tool. The formal org chart vs. the real one. Japan is the centerpiece because it names out loud what Western orgs hide: ringi confirms decisions rather than making them, nemawashi is where the decision happens, honne and tatemae are the two layers every org runs. The act closes with a playbook a mid-level employee can run this week — score the units, ask the network questions, trace one decision backward, dig through the systems, code, meetings and approval workflows your access already shows, map dependence and gatekeepers, find brokers and seams, plot a power/interest grid — ending in a filled-in one-page map, worked end to end on a clearly fictional company (Larkspur Analytics) that Act 3 carries forward.
+Now the structural lens becomes a tool. The formal org chart vs. the real one. Japan is the centerpiece because it names out loud what Western orgs hide: ringi confirms decisions rather than making them, nemawashi is where the decision happens, honne and tatemae are the two layers every org runs. The act closes with a playbook for a standing map of the org's few critical issues (what leadership actually cares about) a mid-level employee can run this week — score the units, ask the network questions, trace one decision backward, dig through the systems, code, meetings and approval workflows your access already shows, map dependence and gatekeepers, find brokers and seams, plot a power/interest grid — ending in a filled-in one-page map, worked end to end on a clearly fictional company (Larkspur Analytics) that Act 3 carries forward.
 Final image: the map.
 
 **Act 3 — Moving Well (Lecture 3: Building and Exercising Power)**
 Dramatic question: given all this, how do I act — and how do I get more power while doing it?
-Opens by taking out the Act 2 map: each move starts from a field on that page. Navigation, not manipulation. Pfeffer's material — sponsorship, visibility, resource control, brokerage between groups — but framed as reading currents, the way a sailor does, which keeps it non-negative. The Stoic operating stance: Marcus's morning preparation, the dichotomy of control, 5.20 in George Long's translation — "that which is a hindrance is made a furtherance to an act; and that which is an obstacle on the road helps us on this road." Ends by returning to the coffin-maker one final time, from the other side: positions shape what people want, and you can choose and shape yours.
+Opens by taking out the Act 2 map; each move starts from a field on that page. The arc is map → trusted contributor → power broker, the person the critical issues run through. Navigation, not manipulation. Pfeffer's material — sponsorship, visibility, resource control, brokerage between groups — but framed as reading currents, the way a sailor does, which keeps it non-negative. The Stoic operating stance: Marcus's morning preparation, the dichotomy of control, 5.20 in George Long's translation — "that which is a hindrance is made a furtherance to an act; and that which is an obstacle on the road helps us on this road." Ends by returning to the coffin-maker one final time, from the other side: positions shape what people want, and you can choose and shape yours.
 Final image: the sailor.
 
 The emotional arc across the whole series: victim of the machine → reader of the machine → navigator of it. Naive moralism → calm clarity → calm agency. And each lecture repeats the three-act shape internally, so it's fractal — setup, turn, resolution in every hour too.
@@ -52,7 +52,7 @@ One structural note: Han Feizi's coffin-maker opens Act 1 and closes Act 3, and 
 - `00-series-overview.md` — this file (the canonical framing)
 - `01-act1-the-world-as-it-is.md` — Act 1 outline, ~22 slides
 - `02-act2-reading-the-terrain.md` — Act 2 outline, ~30 slides
-- `03-act3-moving-well.md` — Act 3 outline, ~28 slides
+- `03-act3-moving-well.md` — Act 3 outline, ~29 slides
 
 ## Status
 
