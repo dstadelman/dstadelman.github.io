@@ -65,7 +65,8 @@ Internal three acts:
 - EU-Japan Centre for Industrial Cooperation, "From Understanding to Navigating Japanese Business Culture" — nemawashi ≠ lobbying; ringi still used by up to ~90% of large Japanese firms
 - Japan Intercultural Consulting on ringi — the desk-drawer pocket veto, upside-down hanko, the kiansha as framer
 - Melvin Conway, "How Do Committees Invent?" (1968)
-- Vaish, Gajos & Manku — "Predicting Organizational Structure from Commit Data" (Microsoft Research, 2017)
+- Nagappan, Murphy & Basili — "The Influence of Organizational Structure on Software Quality" (Microsoft Research TR-2008-11)
+- Long, Markovtsev, Mougard, Bulychev & Hula — "Identifying collaborators in large codebases" (arXiv 1905.06782, 2019)
 - Ronald Burt, Structural Holes (brokerage, network gaps)
 - Jeffrey Pfeffer, Power: Why Some People Have It and Others Don't (diagnostic chapters)
 - Public-filings examples, anonymized
