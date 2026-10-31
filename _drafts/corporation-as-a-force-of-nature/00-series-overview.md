@@ -16,7 +16,7 @@ If a slide makes the org look sinister or makes the audience feel like a victim,
 
 ## The three beats (the story, in order)
 
-1. Corporations are not evil and are not ruined by a few bad apples. They are a force of nature. (Act 1; the force-of-nature image threads all three acts)
+1. No villains, no bad apples. A corporation is a force of nature, and you don't hate the tide. (Act 1; the force-of-nature image threads all three acts)
 2. Here is how corporations actually work. (Act 2)
 3. Here is how to get more power in your corporation. (Act 3)
 
