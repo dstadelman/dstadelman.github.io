@@ -14,14 +14,13 @@ The corporation is not evil. It is a structure, and structures have regularities
 
 If a slide makes the org look sinister or makes the audience feel like a victim, it's wrong. If a slide makes the org look like nature and the audience feel capable, it's right.
 
-## The four beats (the story, in order)
+## The three beats (the story, in order)
 
-1. Corporations are not evil. (Act 1)
-2. Corporations are nature. (Act 1 — weather, ocean, mountain; threads all three acts)
-3. Here is how corporations actually work. (Act 2)
-4. Here is how to get more power in your corporation. (Act 3)
+1. Corporations are not evil and are not ruined by a few bad apples. They are a force of nature. (Act 1; the force-of-nature image threads all three acts)
+2. Here is how corporations actually work. (Act 2)
+3. Here is how to get more power in your corporation. (Act 3)
 
-Every slide should serve one of these beats without breaking beats 1 and 2.
+Every slide should serve one of these beats without breaking beat 1.
 
 ## The framing (canonical — everything else derives from this)
 
@@ -54,7 +53,6 @@ One structural note: the Annie quote — "I just want the weak who do get swept 
 - `01-act1-the-world-as-it-is.md` — Act 1 outline, ~27 slides
 - `02-act2-reading-the-terrain.md` — Act 2 outline, ~26 slides
 - `03-act3-moving-well.md` — Act 3 outline, ~26 slides
-- `build_lecture1.py` — deck generator
 
 ## Status
 
