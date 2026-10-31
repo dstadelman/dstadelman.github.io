@@ -33,7 +33,7 @@ Final image: standing at the shore.
 
 **Act 2 — Reading the Terrain (Lecture 2: How Power Actually Works)**
 Dramatic question: where does power actually live, in this specific organization?
-Now the structural lens becomes a tool. The formal org chart vs. the real one. Japan is the centerpiece because it names out loud what Western orgs hide: ringi confirms decisions rather than making them, nemawashi is where the decision happens, honne and tatemae are the two layers every org runs. The act closes with a playbook a mid-level employee can run this week — score the units, ask the network questions, trace one decision backward, map dependence and gatekeepers, find brokers and seams, plot a power/interest grid — ending in a filled-in one-page map.
+Now the structural lens becomes a tool. The formal org chart vs. the real one. Japan is the centerpiece because it names out loud what Western orgs hide: ringi confirms decisions rather than making them, nemawashi is where the decision happens, honne and tatemae are the two layers every org runs. The act closes with a playbook a mid-level employee can run this week — score the units, ask the network questions, trace one decision backward, dig through the systems, code, meetings and approval workflows your access already shows, map dependence and gatekeepers, find brokers and seams, plot a power/interest grid — ending in a filled-in one-page map, worked end to end on a clearly fictional company (Larkspur Analytics) that Act 3 carries forward.
 Final image: the map.
 
 **Act 3 — Moving Well (Lecture 3: Building and Exercising Power)**
@@ -51,8 +51,8 @@ One structural note: Han Feizi's coffin-maker opens Act 1 and closes Act 3, and 
 
 - `00-series-overview.md` — this file (the canonical framing)
 - `01-act1-the-world-as-it-is.md` — Act 1 outline, ~22 slides
-- `02-act2-reading-the-terrain.md` — Act 2 outline, ~25 slides
-- `03-act3-moving-well.md` — Act 3 outline, ~27 slides
+- `02-act2-reading-the-terrain.md` — Act 2 outline, ~30 slides
+- `03-act3-moving-well.md` — Act 3 outline, ~28 slides
 
 ## Status
 
