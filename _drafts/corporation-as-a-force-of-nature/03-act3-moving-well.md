@@ -47,7 +47,7 @@ Internal three acts:
 24. You can play the game and keep your face — Doi again: tatemae is not a mask over the true self; the two are mutually constitutive, and the tatemae is the part of you that makes the group livable. Your honne stays yours.
 25. The AoT counter-example: Eren fights the institution directly; every attempt costs the people around him. The survivors are the structural readers — Hange with patronage, Levi choosing battles, Armin reading what the enemy's structure will and won't do.
 26. You don't have to love the machine. You don't have to fix it. You have to know it and move well through it. That's enough. That's the whole series.
-27. The Annie quote, one final time — now from the other side. She wasn't the sad one in that scene. She was the only one who wasn't deluded. The clarity is what set her free. Series arc: victim of the machine → reader of the machine → navigator of it. Final image: the sailor, trimmed to the current, going somewhere.
+27. The Annie quote, one final time — now from the other side: "I just want the weak who do get swept along with the flow to be considered human, too." (Attack on Titan S1E23, official English subtitles, Crunchyroll track). She wasn't the sad one in that scene. She was the only one who wasn't deluded. The clarity is what set her free. Series arc: victim of the machine → reader of the machine → navigator of it. Final image: the sailor, trimmed to the current, going somewhere.
 
 ### Close (2 min, slide 28)
 28. Homework for the whole series: name one decision you'll win by pre-meeting this quarter; ask for one hard assignment; tell someone in the room which one.

@@ -56,7 +56,7 @@ Internal three acts:
 26. Bridge to Act 2: next time, we learn to read the specific terrain — and we'll borrow a culture that names out loud what ours hides.
 
 ### Close (3 min, slide 27)
-27. The Annie quote again — now earned. Homework: pick one decision at your company you believe happened in a meeting. Find where it actually happened.
+27. The Annie quote again — now earned: "I just want the weak who do get swept along with the flow to be considered human, too." (Attack on Titan S1E23, official English subtitles, Crunchyroll track). Homework: pick one decision at your company you believe happened in a meeting. Find where it actually happened.
 
 ---
 

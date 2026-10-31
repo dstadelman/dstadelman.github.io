@@ -35,7 +35,7 @@ Final image: the sailor.
 
 The emotional arc across the whole series: victim of the machine → reader of the machine → navigator of it. Naive moralism → calm clarity → calm agency. And each lecture repeats the three-act shape internally, so it's fractal — setup, turn, resolution in every hour too.
 
-One structural note: the Annie quote opens Act 1 and closes Act 3, and the force-of-nature image (weather, ocean, mountain) threads all three. That's what makes it feel like one story instead of three talks.
+One structural note: the Annie quote — "I just want the weak who do get swept along with the flow to be considered human, too." (Attack on Titan S1E23, official English subtitles, Crunchyroll track) — opens Act 1 and closes Act 3, and the force-of-nature image (weather, ocean, mountain) threads all three. That's what makes it feel like one story instead of three talks.
 
 ---
 
