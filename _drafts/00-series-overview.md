@@ -2,6 +2,18 @@
 ## Understanding and Navigating Corporate Power
 ### A three-part lecture series (3 x 60 minutes)
 
+## The goal (the point of the whole series — check every slide against this)
+
+The end state: bring the viewer from thinking the corporation is evil — or that a few bad apples at the top are hurting it — to realizing what it actually is, and how they can succeed inside it.
+
+The corporation is not evil. It is a structure, and structures have regularities. American business culture tends to explain problems as "those four bad guys in our org" — the bad-apple theory. Japanese culture, having built words and institutions for the two layers (honne/tatemae, ringi/nemawashi), recognizes what the structure is and works with it instead of being disappointed by it. Every act moves the audience along this line:
+
+- Act 1: it's not evil, and it's not broken — it was never built for goodness; it's weather, ocean, mountain.
+- Act 2: once you stop looking for villains, you can see where decisions actually happen.
+- Act 3: once you can see the terrain, you can move through it — and get more power by doing it well.
+
+If a slide makes the org look sinister or makes the audience feel like a victim, it's wrong. If a slide makes the org look like nature and the audience feel capable, it's right.
+
 ## The framing (canonical — everything else derives from this)
 
 Three acts for the series, one per lecture. The arc is: see the world, read the terrain, move through it.
@@ -36,5 +48,6 @@ One structural note: the Annie quote opens Act 1 and closes Act 3, and the ocean
 ## Status
 
 - [x] Three acts agreed and recorded as the canonical framing
-- [ ] Outline each lecture (beat by beat, slide counts, timing)
+- [x] The goal recorded (not-evil / bad-apple-to-navigator) — added above the framing
+- [x] Outline each lecture (beat by beat, slide counts, timing) — 01/02/03 files, Conway + Japan books folded in
 - [ ] Build decks
