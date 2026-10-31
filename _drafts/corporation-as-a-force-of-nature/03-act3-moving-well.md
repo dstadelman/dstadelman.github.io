@@ -3,12 +3,12 @@
 
 Dramatic question: given all this, how do I act — and how do I get more power while doing it?
 Final image: the sailor.
-Runtime: 60 minutes, ~26 slides.
+Runtime: 60 minutes, ~25 slides.
 
 Internal three acts:
 - Setup (0–12): the operating stance — how to hold all of this without going bitter.
 - Turn (12–45): navigation tactics — the concrete moves that build power.
-- Resolution (45–60): the choice of which fights to fight, and the Annie quote from the other side.
+- Resolution (45–60): the choice of which fights to fight, and the coffin-maker from the other side.
 
 ---
 
@@ -36,19 +36,18 @@ Internal three acts:
 15. Move 5 — do the pre-meeting. Now you do nemawashi yourself: decisions are won one-on-one before the meeting. This is the Act 2 map turned into motion. Meyer's cautionary cases inverted: the Beam exec who kept trying to win the Tokyo meeting lost it every time; once he gave his input weeks earlier, he stopped losing. Timing is the skill.
 16. The framer as role model: the kiansha. "The person who writes the ringi is the person who frames the question, and who gathers all the data… Their selection of what information to include and what not to include is crucial" ([Japan Intercultural Consulting](https://japanintercultural.com/free-resources/articles/how-do-the-japanese-put-in-their-two-cents-ringi/)). Volunteer to write the document.
 17. Move 6 — assignment before title: in a Japanese "late promotion" firm, the gap that predicted who made manager appeared "in the first personnel transfer after the initial assignment" ([Uehara 2009](https://www.jil.go.jp/english/JLR/documents/2009/JLR23_uehara.pdf)). Ask for the pilot, the turnaround, the thing that's failing — the title follows the assignment. And tend cohort ties horizontally on purpose, because vertical structures keep them weak (Nakane). [Corrected: Abegglen attribution replaced with Uehara.]
-18. Move 7 — pick battles the org can absorb. Not every wrong is yours to fight. Attack on Titan: No Regrets — when a noble schemes to divert expedition funding to the Military Police, Erwin doesn't fight him in the open; he had already sent the evidence to Premier Zachary ([summary](https://en.m.wikipedia.org/wiki/Attack_on_Titan:_No_Regrets)). Reading the structure beat being loudly right. [Replaced unsourced "funding and optics" claim.] The AoT counter-example — the common but unhelpful lens: "fight the institution head-on, because it's rotten." Annie herself refused that frame in S1E23 when she told Marlowe that "If a 'good person' like you ends up in control, I think that'd be the end for us" ([SubArchivist E23 transcript](https://subs.yakuaru.com/books/attack-on-titan/page/e23-smile-raid-on-stohess-district-1)). The structural readers survive. [Removed unsourced character claims about Eren, Hange, Levi, Armin.]
+18. Move 7 — pick battles the org can absorb. Not every wrong is yours to fight: the structure — even "office" — sits on Epictetus's list of things "beyond our power" (slide 5). Spend effort where you have agency.
 19. Move 8 — the inverse Conway maneuver: "evolving your team and organizational structure to promote your desired architecture" ([ThoughtWorks Technology Radar, July 2014](https://www.thoughtworks.com/radar/techniques/inverse-conway-maneuver)). Redraw the seams between teams and you change what the org is capable of producing. You're not manipulating people, you're changing the terrain. Only people with real standing get to redraw seams, which makes this both a power move and a measure of how much power you have.
 20. What this looks like over 12 months: a concrete sequence — map the terrain, hold one resource, broker one cross-unit thing, earn one sponsor, win one pre-meeting, ask for one hard assignment.
 
-### Part 3 — The choice (13 min, slides 21–25)
+### Part 3 — The choice (13 min, slides 21–24)
 21. The objection, finally: "if it's all structure, why bother being good?" Because the informal org runs on trust, and trust is the one resource you can't buy.
 22. Navigation vs. manipulation, drawn plainly: manipulation uses the map to surprise people; navigation uses the map to arrive where decisions happen and be useful there. One burns trust, the other compounds it. Nemawashi vs. the backroom deal — same mechanics, opposite intent: one shares information early, the other hoards it.
 23. You can play the game and keep your face — Doi again: tatemae and honne are "symbiotic, mutually constitutive" ([Japan Times review of The Anatomy of Self](https://www.japantimes.co.jp/culture/2001/09/16/books/a-theory-in-need-of-updating/)); the tatemae is the part of you that makes the group livable. Your honne stays yours.
-24. You don't have to love the machine. You don't have to fix it. You have to know it and move well through it. That's enough. That's the whole series.
-25. The Annie quote, one final time — now from the other side: "I just want the weak who do get swept along with the flow to be considered human, too." (Attack on Titan S1E23, official English subtitles, Crunchyroll track). She wasn't the sad one in that scene. She was the only one who wasn't deluded. The clarity is what set her free. Series arc: victim of the machine → reader of the machine → navigator of it. Final image: the sailor, trimmed to the current, going somewhere.
+24. The coffin-maker, one final time — now from the other side: "It is not that the carriage-maker is benevolent and the coffin-maker is cruel" ([Hanfeizi ch. 17, warringstates.day translation](https://warringstates.day/library/hanfeizi/17-bei-nei)). In Act 1 that line told you to stop hunting villains. Now it tells you something useful: positions shape what people want, and you can choose and shape yours. Series arc: victim of the machine → reader of the machine → navigator of it. Final image: the sailor, trimmed to the current, going somewhere. You don't have to love the machine. You don't have to fix it. You have to know it and move well through it. That's enough. That's the whole series.
 
-### Close (2 min, slide 26)
-26. Homework for the whole series: name one decision you'll win by pre-meeting this quarter; ask for one hard assignment; tell someone in the room which one.
+### Close (2 min, slide 25)
+25. Homework for the whole series: name one decision you'll win by pre-meeting this quarter; ask for one hard assignment; tell someone in the room which one.
 
 ---
 
@@ -58,11 +57,11 @@ Internal three acts:
 - Jeffrey Pfeffer, Power (2010); "Power Play," HBR 2010; HBR IdeaCast 2010; Stanford GSB "How to Lean In to Power"
 - Sylvia Ann Hewlett, Forget a Mentor, Find a Sponsor (2013)
 - Ronald Burt, Structural Holes (1992)
+- Han Feizi, ch. 17 (warringstates.day translation) — the coffin-maker callback
 - Chie Nakane, Japanese Society (1970) — oyabun/kobun, weak lateral ties
 - Takeo Doi, The Anatomy of Self (1986) — via Japan Times review
 - Katsuhito Uehara, Japan Labor Review (2009) — assignment before title
 - Japan Intercultural Consulting — the ringi drafter frames the question
 - Erin Meyer, "Being the Boss in Brussels, Boston, and Beijing," HBR 2017 — Suntory–Beam
 - Melvin Conway (1968); ThoughtWorks Technology Radar (July 2014) — inverse Conway maneuver
-- Attack on Titan S1E23 (official English subtitles, Crunchyroll track); Attack on Titan: No Regrets
 - [Removed: Meditations 4.3/6.30 (not used in this act); Pfeffer 7 Rules of Power (not cited); Abegglen & Stalk (claim not verified)]

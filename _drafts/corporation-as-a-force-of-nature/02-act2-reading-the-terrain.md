@@ -36,7 +36,7 @@ Internal three acts:
 ### Part 2 — Diagnostics: how to map your own terrain (20 min, slides 16–24)
 16. Diagnostic 1 — follow the budget. Who signs, who can stop, who reallocates without asking. Pfeffer: "budget is a source of power" ([Pfeffer, HBR IdeaCast 2010](https://hbr.org/podcast/2010/06/telling-the-truth-about-power)).
 17. Diagnostic 2 — follow the information. Who gets the deck before the meeting. Who's on the distribution list. Who's CC'd late.
-18. Diagnostic 3 — follow the promotions. Who gets promoted and fast is the org's revealed religion. (Annie's method, applied.) The Uehara lesson: watch the assignment, not the title — the informal record runs ahead.
+18. Diagnostic 3 — follow the promotions. Who gets promoted and fast is the org's revealed religion. The Uehara lesson: watch the assignment, not the title — the informal record runs ahead.
 19. Diagnostic 4 — find the pre-meeting. Every important meeting has a nemawashi phase. Find where it happens: the 1:1, the group chat, the hallway.
 20. Diagnostic 5 — meeting mechanics: who speaks first, who summarizes, who nobody contradicts. (And per Meyer: if your org decides with capital D, the meeting is the receipt — stop trying to win meetings.) [Removed unsourced "the last speaker usually owns the meeting."]
 21. Diagnostic 6 — the calendar. Access to time is access to power: "staff members who control senior executive calendars have an enormous amount of power" ([Pfeffer, HBR IdeaCast 2010](https://hbr.org/podcast/2010/06/telling-the-truth-about-power)).

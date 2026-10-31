@@ -28,7 +28,7 @@ Three acts for the series, one per lecture. The arc is: see the world, read the 
 
 **Act 1 — The World As It Is (Lecture 1: History and Understanding)**
 Dramatic question: what is this thing I live inside?
-The audience starts naive — they explain org behavior through good and bad people. The Annie quote breaks that. History shows the corporation was never designed for human goodness; it was patched together under pressure about capital and control (VOC, Chandler, the M-form). Michels and Weber show hierarchy re-forms even in orgs founded to prevent it. Han Feizi saw the same from the Chinese side two thousand years ago. Conway's Law shows it in engineering terms: organizations produce designs that copy their communication structures. The act ends on the emotional turn you named: this isn't cynicism, it's relief — the org is weather, the ocean, the mountain. You can't fight it, and you don't have to be sad at it.
+The audience starts naive — they explain org behavior through good and bad people. Han Feizi's coffin-maker breaks that: the coffin-maker isn't cruel, his position pays him when people die. History shows the corporation was never designed for human goodness; it was patched together under pressure about capital and control (VOC, Chandler, the M-form). Michels and Weber show hierarchy re-forms even in orgs founded to prevent it. Han Feizi saw it from the Chinese side two thousand years ago. Conway's Law shows it in engineering terms: organizations produce designs that copy their communication structures. The act ends on the emotional turn you named: this isn't cynicism, it's relief — the org is weather, the ocean, the mountain. You can't fight it, and you don't have to be sad at it.
 Final image: standing at the shore.
 
 **Act 2 — Reading the Terrain (Lecture 2: How Power Actually Works)**
@@ -38,21 +38,21 @@ Final image: the map.
 
 **Act 3 — Moving Well (Lecture 3: Building and Exercising Power)**
 Dramatic question: given all this, how do I act — and how do I get more power while doing it?
-Navigation, not manipulation. Pfeffer's material — sponsorship, visibility, resource control, brokerage between groups — but framed as reading currents, the way a sailor does, which keeps it non-negative. The Stoic operating stance: Marcus's morning preparation, the dichotomy of control, 5.20 in George Long's translation — "that which is a hindrance is made a furtherance to an act; and that which is an obstacle on the road helps us on this road." Ends by returning to the Annie quote one final time, but now the audience stands on the other side of it — she wasn't the sad one, she was the free one.
+Navigation, not manipulation. Pfeffer's material — sponsorship, visibility, resource control, brokerage between groups — but framed as reading currents, the way a sailor does, which keeps it non-negative. The Stoic operating stance: Marcus's morning preparation, the dichotomy of control, 5.20 in George Long's translation — "that which is a hindrance is made a furtherance to an act; and that which is an obstacle on the road helps us on this road." Ends by returning to the coffin-maker one final time, from the other side: positions shape what people want, and you can choose and shape yours.
 Final image: the sailor.
 
 The emotional arc across the whole series: victim of the machine → reader of the machine → navigator of it. Naive moralism → calm clarity → calm agency. And each lecture repeats the three-act shape internally, so it's fractal — setup, turn, resolution in every hour too.
 
-One structural note: the Annie quote — "I just want the weak who do get swept along with the flow to be considered human, too." (Attack on Titan S1E23, official English subtitles, Crunchyroll track) — opens Act 1 and closes Act 3, and the force-of-nature image (weather, ocean, mountain) threads all three. That's what makes it feel like one story instead of three talks.
+One structural note: Han Feizi's coffin-maker opens Act 1 and closes Act 3, and the force-of-nature image (weather, ocean, mountain) threads all three. That's what makes it feel like one story instead of three talks.
 
 ---
 
 ## Files
 
 - `00-series-overview.md` — this file (the canonical framing)
-- `01-act1-the-world-as-it-is.md` — Act 1 outline, ~27 slides
+- `01-act1-the-world-as-it-is.md` — Act 1 outline, ~25 slides
 - `02-act2-reading-the-terrain.md` — Act 2 outline, ~26 slides
-- `03-act3-moving-well.md` — Act 3 outline, ~26 slides
+- `03-act3-moving-well.md` — Act 3 outline, ~25 slides
 
 ## Status
 
