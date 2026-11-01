@@ -52,7 +52,7 @@ One structural note: Han Feizi's coffin-maker opens Act 1 and closes Act 3, and 
 
 - `00-series-overview.md` — this file (the canonical framing)
 - `01-act1-the-world-as-it-is.md` — Act 1 outline, ~22 slides
-- `02-act2-reading-the-terrain.md` — Act 2 outline, ~31 slides
+- `02-act2-reading-the-terrain.md` — Act 2 outline, ~33 slides
 - `03-act3-moving-well.md` — Act 3 outline, ~29 slides
 
 ## Status
