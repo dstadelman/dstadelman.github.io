@@ -34,6 +34,7 @@ Final image: standing at the shore.
 **Act 2 — Reading the Terrain (Lecture 2: How Power Actually Works)**
 Dramatic question: where does power actually live, in this specific organization?
 Now the structural lens becomes a tool. The formal org chart vs. the real one. Japan is the centerpiece because it names out loud what Western orgs hide: ringi confirms decisions rather than making them, nemawashi is where the decision happens, honne and tatemae are the two layers every org runs. The act closes by naming the organization inside the organization (Barnard's informal organization; Krackhardt & Hanson's company behind the chart), then a playbook for a standing map of the org's few critical issues (what leadership actually cares about) a mid-level employee can run this week — score the units, ask the network questions, trace one decision backward, dig through the systems, code, meetings and approval workflows your access already shows, map dependence and gatekeepers, find brokers and seams, plot a power/interest grid — ending in a filled-in one-page map, worked end to end on a clearly fictional company (Larkspur Analytics) that Act 3 carries forward.
+Mostly it's not lying. It's people repeating what got them promoted, because that's the only version they've ever been rewarded for telling.
 Final image: the map.
 
 **Act 3 — Moving Well (Lecture 3: Building and Exercising Power)**
