@@ -1,6 +1,8 @@
+---
 layout: "post"
 title: "How I'm Actually Using AI Right Now (Including Claude Duet)"
 date: 2026-10-25
+---
 
 # Summary: How I'm Actually Using AI Right Now (Including Claude Duet)
 
